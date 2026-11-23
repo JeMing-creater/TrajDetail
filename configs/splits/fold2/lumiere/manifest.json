@@ -1,0 +1,862 @@
+{
+  "dataset": "lumiere",
+  "outer_fold": 2,
+  "split_seed": 42,
+  "patients": [
+    {
+      "patient_id": "Patient-001",
+      "split": "train",
+      "source_index": 0,
+      "visits": 3,
+      "source_split": "train",
+      "windows": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "patient_id": "Patient-002",
+      "split": "train",
+      "source_index": 1,
+      "visits": 6,
+      "source_split": "train",
+      "windows": [
+        2,
+        4,
+        3,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "patient_id": "Patient-003",
+      "split": "train",
+      "source_index": 2,
+      "visits": 4,
+      "source_split": "train",
+      "windows": [
+        3,
+        2,
+        3,
+        3,
+        2,
+        3
+      ]
+    },
+    {
+      "patient_id": "Patient-011",
+      "split": "train",
+      "source_index": 9,
+      "visits": 5,
+      "source_split": "train",
+      "windows": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "patient_id": "Patient-014",
+      "split": "train",
+      "source_index": 11,
+      "visits": 3,
+      "source_split": "train",
+      "windows": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "patient_id": "Patient-018",
+      "split": "train",
+      "source_index": 14,
+      "visits": 6,
+      "source_split": "train",
+      "windows": [
+        4,
+        3,
+        4,
+        5,
+        4,
+        5
+      ]
+    },
+    {
+      "patient_id": "Patient-019",
+      "split": "train",
+      "source_index": 15,
+      "visits": 13,
+      "source_split": "train",
+      "windows": [
+        10,
+        2,
+        3,
+        7,
+        7,
+        4
+      ]
+    },
+    {
+      "patient_id": "Patient-029",
+      "split": "train",
+      "source_index": 21,
+      "visits": 13,
+      "source_split": "train",
+      "windows": [
+        11,
+        12,
+        2,
+        5,
+        12,
+        2
+      ]
+    },
+    {
+      "patient_id": "Patient-031",
+      "split": "train",
+      "source_index": 23,
+      "visits": 18,
+      "source_split": "train",
+      "windows": [
+        3,
+        17,
+        7,
+        15,
+        9,
+        14
+      ]
+    },
+    {
+      "patient_id": "Patient-032",
+      "split": "train",
+      "source_index": 24,
+      "visits": 12,
+      "source_split": "train",
+      "windows": [
+        8,
+        10,
+        2,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "patient_id": "Patient-033",
+      "split": "train",
+      "source_index": 25,
+      "visits": 10,
+      "source_split": "train",
+      "windows": [
+        6,
+        2,
+        9,
+        9,
+        7,
+        4
+      ]
+    },
+    {
+      "patient_id": "Patient-034",
+      "split": "train",
+      "source_index": 26,
+      "visits": 6,
+      "source_split": "train",
+      "windows": [
+        2,
+        3,
+        4,
+        3,
+        2,
+        5
+      ]
+    },
+    {
+      "patient_id": "Patient-038",
+      "split": "train",
+      "source_index": 30,
+      "visits": 3,
+      "source_split": "train",
+      "windows": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "patient_id": "Patient-040",
+      "split": "train",
+      "source_index": 32,
+      "visits": 4,
+      "source_split": "train",
+      "windows": [
+        3,
+        3,
+        3,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "patient_id": "Patient-041",
+      "split": "train",
+      "source_index": 33,
+      "visits": 4,
+      "source_split": "train",
+      "windows": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "patient_id": "Patient-042",
+      "split": "train",
+      "source_index": 34,
+      "visits": 12,
+      "source_split": "train",
+      "windows": [
+        6,
+        8,
+        5,
+        5,
+        11,
+        9
+      ]
+    },
+    {
+      "patient_id": "Patient-045",
+      "split": "train",
+      "source_index": 36,
+      "visits": 3,
+      "source_split": "train",
+      "windows": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "patient_id": "Patient-048",
+      "split": "train",
+      "source_index": 38,
+      "visits": 5,
+      "source_split": "train",
+      "windows": [
+        4,
+        4,
+        4,
+        2,
+        4,
+        3
+      ]
+    },
+    {
+      "patient_id": "Patient-050",
+      "split": "train",
+      "source_index": 39,
+      "visits": 5,
+      "source_split": "train",
+      "windows": [
+        4,
+        2,
+        2,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "patient_id": "Patient-051",
+      "split": "train",
+      "source_index": 40,
+      "visits": 9,
+      "source_split": "train",
+      "windows": [
+        2,
+        7,
+        7,
+        2,
+        3,
+        7
+      ]
+    },
+    {
+      "patient_id": "Patient-054",
+      "split": "train",
+      "source_index": 42,
+      "visits": 9,
+      "source_split": "train",
+      "windows": [
+        4,
+        7,
+        4,
+        2,
+        8,
+        8
+      ]
+    },
+    {
+      "patient_id": "Patient-055",
+      "split": "train",
+      "source_index": 43,
+      "visits": 8,
+      "source_split": "train",
+      "windows": [
+        6,
+        3,
+        3,
+        5,
+        2,
+        3
+      ]
+    },
+    {
+      "patient_id": "Patient-058",
+      "split": "train",
+      "source_index": 44,
+      "visits": 4,
+      "source_split": "train",
+      "windows": [
+        2,
+        3,
+        2,
+        3,
+        2,
+        3
+      ]
+    },
+    {
+      "patient_id": "Patient-059",
+      "split": "train",
+      "source_index": 45,
+      "visits": 11,
+      "source_split": "train",
+      "windows": [
+        7,
+        3,
+        7,
+        3,
+        7,
+        8
+      ]
+    },
+    {
+      "patient_id": "Patient-060",
+      "split": "train",
+      "source_index": 0,
+      "visits": 9,
+      "source_split": "validation",
+      "windows": [
+        5,
+        3,
+        3,
+        2,
+        4,
+        8
+      ]
+    },
+    {
+      "patient_id": "Patient-061",
+      "split": "train",
+      "source_index": 1,
+      "visits": 7,
+      "source_split": "validation",
+      "windows": [
+        2,
+        2,
+        3,
+        3,
+        5,
+        5
+      ]
+    },
+    {
+      "patient_id": "Patient-062",
+      "split": "train",
+      "source_index": 2,
+      "visits": 7,
+      "source_split": "validation",
+      "windows": [
+        6,
+        2,
+        5,
+        3,
+        4,
+        3
+      ]
+    },
+    {
+      "patient_id": "Patient-065",
+      "split": "train",
+      "source_index": 5,
+      "visits": 7,
+      "source_split": "validation",
+      "windows": [
+        4,
+        3,
+        6,
+        2,
+        5,
+        2
+      ]
+    },
+    {
+      "patient_id": "Patient-068",
+      "split": "train",
+      "source_index": 8,
+      "visits": 6,
+      "source_split": "validation",
+      "windows": [
+        4,
+        4,
+        5,
+        3,
+        5,
+        4
+      ]
+    },
+    {
+      "patient_id": "Patient-073",
+      "split": "train",
+      "source_index": 0,
+      "visits": 18,
+      "source_split": "test",
+      "windows": [
+        17,
+        8,
+        3,
+        10,
+        16,
+        2
+      ]
+    },
+    {
+      "patient_id": "Patient-074",
+      "split": "train",
+      "source_index": 1,
+      "visits": 4,
+      "source_split": "test",
+      "windows": [
+        3,
+        3,
+        3,
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "patient_id": "Patient-075",
+      "split": "train",
+      "source_index": 2,
+      "visits": 5,
+      "source_split": "test",
+      "windows": [
+        2,
+        3,
+        2,
+        3,
+        2,
+        3
+      ]
+    },
+    {
+      "patient_id": "Patient-078",
+      "split": "train",
+      "source_index": 4,
+      "visits": 17,
+      "source_split": "test",
+      "windows": [
+        7,
+        2,
+        12,
+        8,
+        14,
+        10
+      ]
+    },
+    {
+      "patient_id": "Patient-080",
+      "split": "train",
+      "source_index": 5,
+      "visits": 3,
+      "source_split": "test",
+      "windows": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "patient_id": "Patient-085",
+      "split": "train",
+      "source_index": 6,
+      "visits": 6,
+      "source_split": "test",
+      "windows": [
+        4,
+        3,
+        3,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "patient_id": "Patient-086",
+      "split": "train",
+      "source_index": 7,
+      "visits": 6,
+      "source_split": "test",
+      "windows": [
+        2,
+        5,
+        2,
+        5,
+        2,
+        5
+      ]
+    },
+    {
+      "patient_id": "Patient-004",
+      "split": "validation",
+      "source_index": 3,
+      "visits": 7,
+      "source_split": "train",
+      "windows": [
+        6
+      ]
+    },
+    {
+      "patient_id": "Patient-006",
+      "split": "validation",
+      "source_index": 4,
+      "visits": 14,
+      "source_split": "train",
+      "windows": [
+        13
+      ]
+    },
+    {
+      "patient_id": "Patient-021",
+      "split": "validation",
+      "source_index": 16,
+      "visits": 3,
+      "source_split": "train",
+      "windows": [
+        2
+      ]
+    },
+    {
+      "patient_id": "Patient-022",
+      "split": "validation",
+      "source_index": 17,
+      "visits": 6,
+      "source_split": "train",
+      "windows": [
+        5
+      ]
+    },
+    {
+      "patient_id": "Patient-030",
+      "split": "validation",
+      "source_index": 22,
+      "visits": 8,
+      "source_split": "train",
+      "windows": [
+        7
+      ]
+    },
+    {
+      "patient_id": "Patient-035",
+      "split": "validation",
+      "source_index": 27,
+      "visits": 6,
+      "source_split": "train",
+      "windows": [
+        5
+      ]
+    },
+    {
+      "patient_id": "Patient-043",
+      "split": "validation",
+      "source_index": 35,
+      "visits": 12,
+      "source_split": "train",
+      "windows": [
+        11
+      ]
+    },
+    {
+      "patient_id": "Patient-046",
+      "split": "validation",
+      "source_index": 37,
+      "visits": 4,
+      "source_split": "train",
+      "windows": [
+        3
+      ]
+    },
+    {
+      "patient_id": "Patient-089",
+      "split": "validation",
+      "source_index": 8,
+      "visits": 5,
+      "source_split": "test",
+      "windows": [
+        4
+      ]
+    },
+    {
+      "patient_id": "Patient-007",
+      "split": "test",
+      "source_index": 5,
+      "visits": 10,
+      "source_split": "train",
+      "windows": [
+        9
+      ]
+    },
+    {
+      "patient_id": "Patient-008",
+      "split": "test",
+      "source_index": 6,
+      "visits": 5,
+      "source_split": "train",
+      "windows": [
+        4
+      ]
+    },
+    {
+      "patient_id": "Patient-009",
+      "split": "test",
+      "source_index": 7,
+      "visits": 5,
+      "source_split": "train",
+      "windows": [
+        4
+      ]
+    },
+    {
+      "patient_id": "Patient-010",
+      "split": "test",
+      "source_index": 8,
+      "visits": 3,
+      "source_split": "train",
+      "windows": [
+        2
+      ]
+    },
+    {
+      "patient_id": "Patient-012",
+      "split": "test",
+      "source_index": 10,
+      "visits": 6,
+      "source_split": "train",
+      "windows": [
+        5
+      ]
+    },
+    {
+      "patient_id": "Patient-015",
+      "split": "test",
+      "source_index": 12,
+      "visits": 13,
+      "source_split": "train",
+      "windows": [
+        12
+      ]
+    },
+    {
+      "patient_id": "Patient-017",
+      "split": "test",
+      "source_index": 13,
+      "visits": 4,
+      "source_split": "train",
+      "windows": [
+        3
+      ]
+    },
+    {
+      "patient_id": "Patient-023",
+      "split": "test",
+      "source_index": 18,
+      "visits": 12,
+      "source_split": "train",
+      "windows": [
+        11
+      ]
+    },
+    {
+      "patient_id": "Patient-024",
+      "split": "test",
+      "source_index": 19,
+      "visits": 8,
+      "source_split": "train",
+      "windows": [
+        7
+      ]
+    },
+    {
+      "patient_id": "Patient-028",
+      "split": "test",
+      "source_index": 20,
+      "visits": 8,
+      "source_split": "train",
+      "windows": [
+        7
+      ]
+    },
+    {
+      "patient_id": "Patient-036",
+      "split": "test",
+      "source_index": 28,
+      "visits": 3,
+      "source_split": "train",
+      "windows": [
+        2
+      ]
+    },
+    {
+      "patient_id": "Patient-037",
+      "split": "test",
+      "source_index": 29,
+      "visits": 6,
+      "source_split": "train",
+      "windows": [
+        5
+      ]
+    },
+    {
+      "patient_id": "Patient-039",
+      "split": "test",
+      "source_index": 31,
+      "visits": 3,
+      "source_split": "train",
+      "windows": [
+        2
+      ]
+    },
+    {
+      "patient_id": "Patient-052",
+      "split": "test",
+      "source_index": 41,
+      "visits": 8,
+      "source_split": "train",
+      "windows": [
+        7
+      ]
+    },
+    {
+      "patient_id": "Patient-063",
+      "split": "test",
+      "source_index": 3,
+      "visits": 11,
+      "source_split": "validation",
+      "windows": [
+        10
+      ]
+    },
+    {
+      "patient_id": "Patient-064",
+      "split": "test",
+      "source_index": 4,
+      "visits": 6,
+      "source_split": "validation",
+      "windows": [
+        5
+      ]
+    },
+    {
+      "patient_id": "Patient-066",
+      "split": "test",
+      "source_index": 6,
+      "visits": 9,
+      "source_split": "validation",
+      "windows": [
+        8
+      ]
+    },
+    {
+      "patient_id": "Patient-067",
+      "split": "test",
+      "source_index": 7,
+      "visits": 19,
+      "source_split": "validation",
+      "windows": [
+        18
+      ]
+    },
+    {
+      "patient_id": "Patient-070",
+      "split": "test",
+      "source_index": 9,
+      "visits": 5,
+      "source_split": "validation",
+      "windows": [
+        4
+      ]
+    },
+    {
+      "patient_id": "Patient-071",
+      "split": "test",
+      "source_index": 10,
+      "visits": 6,
+      "source_split": "validation",
+      "windows": [
+        5
+      ]
+    },
+    {
+      "patient_id": "Patient-072",
+      "split": "test",
+      "source_index": 11,
+      "visits": 13,
+      "source_split": "validation",
+      "windows": [
+        12
+      ]
+    },
+    {
+      "patient_id": "Patient-077",
+      "split": "test",
+      "source_index": 3,
+      "visits": 9,
+      "source_split": "test",
+      "windows": [
+        8
+      ]
+    }
+  ],
+  "counts": {
+    "train": 36,
+    "validation": 9,
+    "test": 22
+  }
+}

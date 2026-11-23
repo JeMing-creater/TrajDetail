@@ -1,0 +1,1414 @@
+{
+  "dataset": "ACDC",
+  "raw_root": "/mnt/Datasets/ACDC/database",
+  "preprocessing": {
+    "crop": "[..., ED-1:ES]",
+    "resize_shape_xyzt": [
+      128,
+      128,
+      32,
+      12
+    ],
+    "interpolation": "scipy.ndimage.zoom default cubic interpolation",
+    "normalization": "per-frame spatial min-max to [0,1]",
+    "prepare_seed": 0,
+    "effective_validation_fold": 0,
+    "workers": 8
+  },
+  "split_indices_zero_based": {
+    "train": [
+      86,
+      2,
+      55,
+      75,
+      16,
+      73,
+      54,
+      95,
+      92,
+      78,
+      13,
+      7,
+      22,
+      24,
+      33,
+      8,
+      62,
+      3,
+      71,
+      45,
+      6,
+      99,
+      82,
+      76,
+      80,
+      90,
+      68,
+      51,
+      18,
+      56,
+      63,
+      74,
+      61,
+      42,
+      41,
+      4,
+      17,
+      40,
+      38,
+      5,
+      59,
+      0,
+      34,
+      28,
+      11,
+      35,
+      23,
+      52,
+      31,
+      66,
+      57,
+      79,
+      32,
+      84,
+      14,
+      89,
+      29,
+      49,
+      97,
+      98,
+      20,
+      94,
+      72,
+      77,
+      37,
+      81,
+      46,
+      39,
+      58,
+      12,
+      88,
+      70,
+      36,
+      21,
+      83,
+      9,
+      67,
+      64,
+      47,
+      44
+    ],
+    "validation": [
+      26,
+      93,
+      53,
+      30,
+      43,
+      48,
+      60,
+      27,
+      1,
+      15,
+      91,
+      50,
+      10,
+      85,
+      19,
+      69,
+      25,
+      65,
+      87,
+      96
+    ],
+    "test": [
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149
+    ]
+  },
+  "split_patient_ids_one_based": {
+    "train": [
+      87,
+      3,
+      56,
+      76,
+      17,
+      74,
+      55,
+      96,
+      93,
+      79,
+      14,
+      8,
+      23,
+      25,
+      34,
+      9,
+      63,
+      4,
+      72,
+      46,
+      7,
+      100,
+      83,
+      77,
+      81,
+      91,
+      69,
+      52,
+      19,
+      57,
+      64,
+      75,
+      62,
+      43,
+      42,
+      5,
+      18,
+      41,
+      39,
+      6,
+      60,
+      1,
+      35,
+      29,
+      12,
+      36,
+      24,
+      53,
+      32,
+      67,
+      58,
+      80,
+      33,
+      85,
+      15,
+      90,
+      30,
+      50,
+      98,
+      99,
+      21,
+      95,
+      73,
+      78,
+      38,
+      82,
+      47,
+      40,
+      59,
+      13,
+      89,
+      71,
+      37,
+      22,
+      84,
+      10,
+      68,
+      65,
+      48,
+      45
+    ],
+    "validation": [
+      27,
+      94,
+      54,
+      31,
+      44,
+      49,
+      61,
+      28,
+      2,
+      16,
+      92,
+      51,
+      11,
+      86,
+      20,
+      70,
+      26,
+      66,
+      88,
+      97
+    ],
+    "test": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150
+    ]
+  },
+  "intermediate_train_ids_one_based": [
+    27,
+    87,
+    3,
+    56,
+    76,
+    94,
+    17,
+    74,
+    55,
+    96,
+    54,
+    93,
+    79,
+    14,
+    8,
+    31,
+    23,
+    25,
+    34,
+    9,
+    44,
+    63,
+    4,
+    72,
+    46,
+    49,
+    7,
+    100,
+    83,
+    77,
+    61,
+    81,
+    91,
+    69,
+    52,
+    28,
+    19,
+    57,
+    64,
+    75,
+    2,
+    62,
+    43,
+    42,
+    5,
+    16,
+    18,
+    41,
+    39,
+    6,
+    92,
+    60,
+    1,
+    35,
+    29,
+    51,
+    12,
+    36,
+    24,
+    53,
+    11,
+    32,
+    67,
+    58,
+    80,
+    86,
+    33,
+    85,
+    15,
+    90,
+    20,
+    30,
+    50,
+    98,
+    99,
+    70,
+    21,
+    95,
+    73,
+    78,
+    26,
+    38,
+    82,
+    47,
+    40,
+    66,
+    59,
+    13,
+    89,
+    71
+  ],
+  "intermediate_validation_ids_one_based": [
+    88,
+    37,
+    22,
+    84,
+    10,
+    97,
+    68,
+    65,
+    48,
+    45
+  ],
+  "patient_phase_metadata": [
+    {
+      "patient_id": 1,
+      "ed_index_1based": 1,
+      "es_index_1based": 12,
+      "source_frames": 12
+    },
+    {
+      "patient_id": 2,
+      "ed_index_1based": 1,
+      "es_index_1based": 12,
+      "source_frames": 12
+    },
+    {
+      "patient_id": 3,
+      "ed_index_1based": 1,
+      "es_index_1based": 15,
+      "source_frames": 15
+    },
+    {
+      "patient_id": 4,
+      "ed_index_1based": 1,
+      "es_index_1based": 15,
+      "source_frames": 15
+    },
+    {
+      "patient_id": 5,
+      "ed_index_1based": 1,
+      "es_index_1based": 13,
+      "source_frames": 13
+    },
+    {
+      "patient_id": 6,
+      "ed_index_1based": 1,
+      "es_index_1based": 16,
+      "source_frames": 16
+    },
+    {
+      "patient_id": 7,
+      "ed_index_1based": 1,
+      "es_index_1based": 7,
+      "source_frames": 7
+    },
+    {
+      "patient_id": 8,
+      "ed_index_1based": 1,
+      "es_index_1based": 13,
+      "source_frames": 13
+    },
+    {
+      "patient_id": 9,
+      "ed_index_1based": 1,
+      "es_index_1based": 13,
+      "source_frames": 13
+    },
+    {
+      "patient_id": 10,
+      "ed_index_1based": 1,
+      "es_index_1based": 13,
+      "source_frames": 13
+    },
+    {
+      "patient_id": 11,
+      "ed_index_1based": 1,
+      "es_index_1based": 8,
+      "source_frames": 8
+    },
+    {
+      "patient_id": 12,
+      "ed_index_1based": 1,
+      "es_index_1based": 13,
+      "source_frames": 13
+    },
+    {
+      "patient_id": 13,
+      "ed_index_1based": 1,
+      "es_index_1based": 14,
+      "source_frames": 14
+    },
+    {
+      "patient_id": 14,
+      "ed_index_1based": 1,
+      "es_index_1based": 13,
+      "source_frames": 13
+    },
+    {
+      "patient_id": 15,
+      "ed_index_1based": 1,
+      "es_index_1based": 10,
+      "source_frames": 10
+    },
+    {
+      "patient_id": 16,
+      "ed_index_1based": 1,
+      "es_index_1based": 12,
+      "source_frames": 12
+    },
+    {
+      "patient_id": 17,
+      "ed_index_1based": 1,
+      "es_index_1based": 9,
+      "source_frames": 9
+    },
+    {
+      "patient_id": 18,
+      "ed_index_1based": 1,
+      "es_index_1based": 10,
+      "source_frames": 10
+    },
+    {
+      "patient_id": 19,
+      "ed_index_1based": 1,
+      "es_index_1based": 11,
+      "source_frames": 11
+    },
+    {
+      "patient_id": 20,
+      "ed_index_1based": 1,
+      "es_index_1based": 11,
+      "source_frames": 11
+    },
+    {
+      "patient_id": 21,
+      "ed_index_1based": 1,
+      "es_index_1based": 13,
+      "source_frames": 13
+    },
+    {
+      "patient_id": 22,
+      "ed_index_1based": 1,
+      "es_index_1based": 11,
+      "source_frames": 11
+    },
+    {
+      "patient_id": 23,
+      "ed_index_1based": 1,
+      "es_index_1based": 9,
+      "source_frames": 9
+    },
+    {
+      "patient_id": 24,
+      "ed_index_1based": 1,
+      "es_index_1based": 9,
+      "source_frames": 9
+    },
+    {
+      "patient_id": 25,
+      "ed_index_1based": 1,
+      "es_index_1based": 9,
+      "source_frames": 9
+    },
+    {
+      "patient_id": 26,
+      "ed_index_1based": 1,
+      "es_index_1based": 12,
+      "source_frames": 12
+    },
+    {
+      "patient_id": 27,
+      "ed_index_1based": 1,
+      "es_index_1based": 11,
+      "source_frames": 11
+    },
+    {
+      "patient_id": 28,
+      "ed_index_1based": 1,
+      "es_index_1based": 9,
+      "source_frames": 9
+    },
+    {
+      "patient_id": 29,
+      "ed_index_1based": 1,
+      "es_index_1based": 12,
+      "source_frames": 12
+    },
+    {
+      "patient_id": 30,
+      "ed_index_1based": 1,
+      "es_index_1based": 12,
+      "source_frames": 12
+    },
+    {
+      "patient_id": 31,
+      "ed_index_1based": 1,
+      "es_index_1based": 10,
+      "source_frames": 10
+    },
+    {
+      "patient_id": 32,
+      "ed_index_1based": 1,
+      "es_index_1based": 12,
+      "source_frames": 12
+    },
+    {
+      "patient_id": 33,
+      "ed_index_1based": 1,
+      "es_index_1based": 14,
+      "source_frames": 14
+    },
+    {
+      "patient_id": 34,
+      "ed_index_1based": 1,
+      "es_index_1based": 16,
+      "source_frames": 16
+    },
+    {
+      "patient_id": 35,
+      "ed_index_1based": 1,
+      "es_index_1based": 11,
+      "source_frames": 11
+    },
+    {
+      "patient_id": 36,
+      "ed_index_1based": 1,
+      "es_index_1based": 12,
+      "source_frames": 12
+    },
+    {
+      "patient_id": 37,
+      "ed_index_1based": 1,
+      "es_index_1based": 12,
+      "source_frames": 12
+    },
+    {
+      "patient_id": 38,
+      "ed_index_1based": 1,
+      "es_index_1based": 11,
+      "source_frames": 11
+    },
+    {
+      "patient_id": 39,
+      "ed_index_1based": 1,
+      "es_index_1based": 10,
+      "source_frames": 10
+    },
+    {
+      "patient_id": 40,
+      "ed_index_1based": 1,
+      "es_index_1based": 13,
+      "source_frames": 13
+    },
+    {
+      "patient_id": 41,
+      "ed_index_1based": 1,
+      "es_index_1based": 11,
+      "source_frames": 11
+    },
+    {
+      "patient_id": 42,
+      "ed_index_1based": 1,
+      "es_index_1based": 16,
+      "source_frames": 16
+    },
+    {
+      "patient_id": 43,
+      "ed_index_1based": 1,
+      "es_index_1based": 7,
+      "source_frames": 7
+    },
+    {
+      "patient_id": 44,
+      "ed_index_1based": 1,
+      "es_index_1based": 11,
+      "source_frames": 11
+    },
+    {
+      "patient_id": 45,
+      "ed_index_1based": 1,
+      "es_index_1based": 13,
+      "source_frames": 13
+    },
+    {
+      "patient_id": 46,
+      "ed_index_1based": 1,
+      "es_index_1based": 10,
+      "source_frames": 10
+    },
+    {
+      "patient_id": 47,
+      "ed_index_1based": 1,
+      "es_index_1based": 9,
+      "source_frames": 9
+    },
+    {
+      "patient_id": 48,
+      "ed_index_1based": 1,
+      "es_index_1based": 8,
+      "source_frames": 8
+    },
+    {
+      "patient_id": 49,
+      "ed_index_1based": 1,
+      "es_index_1based": 11,
+      "source_frames": 11
+    },
+    {
+      "patient_id": 50,
+      "ed_index_1based": 1,
+      "es_index_1based": 12,
+      "source_frames": 12
+    },
+    {
+      "patient_id": 51,
+      "ed_index_1based": 1,
+      "es_index_1based": 11,
+      "source_frames": 11
+    },
+    {
+      "patient_id": 52,
+      "ed_index_1based": 1,
+      "es_index_1based": 9,
+      "source_frames": 9
+    },
+    {
+      "patient_id": 53,
+      "ed_index_1based": 1,
+      "es_index_1based": 12,
+      "source_frames": 12
+    },
+    {
+      "patient_id": 54,
+      "ed_index_1based": 1,
+      "es_index_1based": 12,
+      "source_frames": 12
+    },
+    {
+      "patient_id": 55,
+      "ed_index_1based": 1,
+      "es_index_1based": 10,
+      "source_frames": 10
+    },
+    {
+      "patient_id": 56,
+      "ed_index_1based": 1,
+      "es_index_1based": 12,
+      "source_frames": 12
+    },
+    {
+      "patient_id": 57,
+      "ed_index_1based": 1,
+      "es_index_1based": 9,
+      "source_frames": 9
+    },
+    {
+      "patient_id": 58,
+      "ed_index_1based": 1,
+      "es_index_1based": 14,
+      "source_frames": 14
+    },
+    {
+      "patient_id": 59,
+      "ed_index_1based": 1,
+      "es_index_1based": 9,
+      "source_frames": 9
+    },
+    {
+      "patient_id": 60,
+      "ed_index_1based": 1,
+      "es_index_1based": 14,
+      "source_frames": 14
+    },
+    {
+      "patient_id": 61,
+      "ed_index_1based": 1,
+      "es_index_1based": 10,
+      "source_frames": 10
+    },
+    {
+      "patient_id": 62,
+      "ed_index_1based": 1,
+      "es_index_1based": 9,
+      "source_frames": 9
+    },
+    {
+      "patient_id": 63,
+      "ed_index_1based": 1,
+      "es_index_1based": 16,
+      "source_frames": 16
+    },
+    {
+      "patient_id": 64,
+      "ed_index_1based": 1,
+      "es_index_1based": 12,
+      "source_frames": 12
+    },
+    {
+      "patient_id": 65,
+      "ed_index_1based": 1,
+      "es_index_1based": 14,
+      "source_frames": 14
+    },
+    {
+      "patient_id": 66,
+      "ed_index_1based": 1,
+      "es_index_1based": 11,
+      "source_frames": 11
+    },
+    {
+      "patient_id": 67,
+      "ed_index_1based": 1,
+      "es_index_1based": 10,
+      "source_frames": 10
+    },
+    {
+      "patient_id": 68,
+      "ed_index_1based": 1,
+      "es_index_1based": 12,
+      "source_frames": 12
+    },
+    {
+      "patient_id": 69,
+      "ed_index_1based": 1,
+      "es_index_1based": 12,
+      "source_frames": 12
+    },
+    {
+      "patient_id": 70,
+      "ed_index_1based": 1,
+      "es_index_1based": 10,
+      "source_frames": 10
+    },
+    {
+      "patient_id": 71,
+      "ed_index_1based": 1,
+      "es_index_1based": 9,
+      "source_frames": 9
+    },
+    {
+      "patient_id": 72,
+      "ed_index_1based": 1,
+      "es_index_1based": 11,
+      "source_frames": 11
+    },
+    {
+      "patient_id": 73,
+      "ed_index_1based": 1,
+      "es_index_1based": 10,
+      "source_frames": 10
+    },
+    {
+      "patient_id": 74,
+      "ed_index_1based": 1,
+      "es_index_1based": 12,
+      "source_frames": 12
+    },
+    {
+      "patient_id": 75,
+      "ed_index_1based": 1,
+      "es_index_1based": 6,
+      "source_frames": 6
+    },
+    {
+      "patient_id": 76,
+      "ed_index_1based": 1,
+      "es_index_1based": 12,
+      "source_frames": 12
+    },
+    {
+      "patient_id": 77,
+      "ed_index_1based": 1,
+      "es_index_1based": 9,
+      "source_frames": 9
+    },
+    {
+      "patient_id": 78,
+      "ed_index_1based": 1,
+      "es_index_1based": 9,
+      "source_frames": 9
+    },
+    {
+      "patient_id": 79,
+      "ed_index_1based": 1,
+      "es_index_1based": 11,
+      "source_frames": 11
+    },
+    {
+      "patient_id": 80,
+      "ed_index_1based": 1,
+      "es_index_1based": 10,
+      "source_frames": 10
+    },
+    {
+      "patient_id": 81,
+      "ed_index_1based": 1,
+      "es_index_1based": 7,
+      "source_frames": 7
+    },
+    {
+      "patient_id": 82,
+      "ed_index_1based": 1,
+      "es_index_1based": 7,
+      "source_frames": 7
+    },
+    {
+      "patient_id": 83,
+      "ed_index_1based": 1,
+      "es_index_1based": 8,
+      "source_frames": 8
+    },
+    {
+      "patient_id": 84,
+      "ed_index_1based": 1,
+      "es_index_1based": 10,
+      "source_frames": 10
+    },
+    {
+      "patient_id": 85,
+      "ed_index_1based": 1,
+      "es_index_1based": 9,
+      "source_frames": 9
+    },
+    {
+      "patient_id": 86,
+      "ed_index_1based": 1,
+      "es_index_1based": 8,
+      "source_frames": 8
+    },
+    {
+      "patient_id": 87,
+      "ed_index_1based": 1,
+      "es_index_1based": 10,
+      "source_frames": 10
+    },
+    {
+      "patient_id": 88,
+      "ed_index_1based": 1,
+      "es_index_1based": 12,
+      "source_frames": 12
+    },
+    {
+      "patient_id": 89,
+      "ed_index_1based": 1,
+      "es_index_1based": 10,
+      "source_frames": 10
+    },
+    {
+      "patient_id": 90,
+      "ed_index_1based": 4,
+      "es_index_1based": 11,
+      "source_frames": 8
+    },
+    {
+      "patient_id": 91,
+      "ed_index_1based": 1,
+      "es_index_1based": 9,
+      "source_frames": 9
+    },
+    {
+      "patient_id": 92,
+      "ed_index_1based": 1,
+      "es_index_1based": 6,
+      "source_frames": 6
+    },
+    {
+      "patient_id": 93,
+      "ed_index_1based": 1,
+      "es_index_1based": 14,
+      "source_frames": 14
+    },
+    {
+      "patient_id": 94,
+      "ed_index_1based": 1,
+      "es_index_1based": 7,
+      "source_frames": 7
+    },
+    {
+      "patient_id": 95,
+      "ed_index_1based": 1,
+      "es_index_1based": 12,
+      "source_frames": 12
+    },
+    {
+      "patient_id": 96,
+      "ed_index_1based": 1,
+      "es_index_1based": 8,
+      "source_frames": 8
+    },
+    {
+      "patient_id": 97,
+      "ed_index_1based": 1,
+      "es_index_1based": 11,
+      "source_frames": 11
+    },
+    {
+      "patient_id": 98,
+      "ed_index_1based": 1,
+      "es_index_1based": 9,
+      "source_frames": 9
+    },
+    {
+      "patient_id": 99,
+      "ed_index_1based": 1,
+      "es_index_1based": 9,
+      "source_frames": 9
+    },
+    {
+      "patient_id": 100,
+      "ed_index_1based": 1,
+      "es_index_1based": 13,
+      "source_frames": 13
+    },
+    {
+      "patient_id": 101,
+      "ed_index_1based": 1,
+      "es_index_1based": 14,
+      "source_frames": 14
+    },
+    {
+      "patient_id": 102,
+      "ed_index_1based": 1,
+      "es_index_1based": 13,
+      "source_frames": 13
+    },
+    {
+      "patient_id": 103,
+      "ed_index_1based": 1,
+      "es_index_1based": 11,
+      "source_frames": 11
+    },
+    {
+      "patient_id": 104,
+      "ed_index_1based": 1,
+      "es_index_1based": 11,
+      "source_frames": 11
+    },
+    {
+      "patient_id": 105,
+      "ed_index_1based": 1,
+      "es_index_1based": 10,
+      "source_frames": 10
+    },
+    {
+      "patient_id": 106,
+      "ed_index_1based": 1,
+      "es_index_1based": 13,
+      "source_frames": 13
+    },
+    {
+      "patient_id": 107,
+      "ed_index_1based": 1,
+      "es_index_1based": 10,
+      "source_frames": 10
+    },
+    {
+      "patient_id": 108,
+      "ed_index_1based": 1,
+      "es_index_1based": 9,
+      "source_frames": 9
+    },
+    {
+      "patient_id": 109,
+      "ed_index_1based": 1,
+      "es_index_1based": 10,
+      "source_frames": 10
+    },
+    {
+      "patient_id": 110,
+      "ed_index_1based": 1,
+      "es_index_1based": 11,
+      "source_frames": 11
+    },
+    {
+      "patient_id": 111,
+      "ed_index_1based": 1,
+      "es_index_1based": 7,
+      "source_frames": 7
+    },
+    {
+      "patient_id": 112,
+      "ed_index_1based": 1,
+      "es_index_1based": 12,
+      "source_frames": 12
+    },
+    {
+      "patient_id": 113,
+      "ed_index_1based": 1,
+      "es_index_1based": 8,
+      "source_frames": 8
+    },
+    {
+      "patient_id": 114,
+      "ed_index_1based": 1,
+      "es_index_1based": 11,
+      "source_frames": 11
+    },
+    {
+      "patient_id": 115,
+      "ed_index_1based": 1,
+      "es_index_1based": 13,
+      "source_frames": 13
+    },
+    {
+      "patient_id": 116,
+      "ed_index_1based": 1,
+      "es_index_1based": 9,
+      "source_frames": 9
+    },
+    {
+      "patient_id": 117,
+      "ed_index_1based": 1,
+      "es_index_1based": 13,
+      "source_frames": 13
+    },
+    {
+      "patient_id": 118,
+      "ed_index_1based": 1,
+      "es_index_1based": 10,
+      "source_frames": 10
+    },
+    {
+      "patient_id": 119,
+      "ed_index_1based": 1,
+      "es_index_1based": 9,
+      "source_frames": 9
+    },
+    {
+      "patient_id": 120,
+      "ed_index_1based": 1,
+      "es_index_1based": 8,
+      "source_frames": 8
+    },
+    {
+      "patient_id": 121,
+      "ed_index_1based": 1,
+      "es_index_1based": 10,
+      "source_frames": 10
+    },
+    {
+      "patient_id": 122,
+      "ed_index_1based": 1,
+      "es_index_1based": 6,
+      "source_frames": 6
+    },
+    {
+      "patient_id": 123,
+      "ed_index_1based": 1,
+      "es_index_1based": 11,
+      "source_frames": 11
+    },
+    {
+      "patient_id": 124,
+      "ed_index_1based": 1,
+      "es_index_1based": 7,
+      "source_frames": 7
+    },
+    {
+      "patient_id": 125,
+      "ed_index_1based": 1,
+      "es_index_1based": 7,
+      "source_frames": 7
+    },
+    {
+      "patient_id": 126,
+      "ed_index_1based": 1,
+      "es_index_1based": 7,
+      "source_frames": 7
+    },
+    {
+      "patient_id": 127,
+      "ed_index_1based": 1,
+      "es_index_1based": 7,
+      "source_frames": 7
+    },
+    {
+      "patient_id": 128,
+      "ed_index_1based": 1,
+      "es_index_1based": 11,
+      "source_frames": 11
+    },
+    {
+      "patient_id": 129,
+      "ed_index_1based": 1,
+      "es_index_1based": 8,
+      "source_frames": 8
+    },
+    {
+      "patient_id": 130,
+      "ed_index_1based": 1,
+      "es_index_1based": 11,
+      "source_frames": 11
+    },
+    {
+      "patient_id": 131,
+      "ed_index_1based": 1,
+      "es_index_1based": 9,
+      "source_frames": 9
+    },
+    {
+      "patient_id": 132,
+      "ed_index_1based": 1,
+      "es_index_1based": 15,
+      "source_frames": 15
+    },
+    {
+      "patient_id": 133,
+      "ed_index_1based": 1,
+      "es_index_1based": 10,
+      "source_frames": 10
+    },
+    {
+      "patient_id": 134,
+      "ed_index_1based": 1,
+      "es_index_1based": 15,
+      "source_frames": 15
+    },
+    {
+      "patient_id": 135,
+      "ed_index_1based": 1,
+      "es_index_1based": 10,
+      "source_frames": 10
+    },
+    {
+      "patient_id": 136,
+      "ed_index_1based": 1,
+      "es_index_1based": 12,
+      "source_frames": 12
+    },
+    {
+      "patient_id": 137,
+      "ed_index_1based": 1,
+      "es_index_1based": 11,
+      "source_frames": 11
+    },
+    {
+      "patient_id": 138,
+      "ed_index_1based": 1,
+      "es_index_1based": 10,
+      "source_frames": 10
+    },
+    {
+      "patient_id": 139,
+      "ed_index_1based": 1,
+      "es_index_1based": 8,
+      "source_frames": 8
+    },
+    {
+      "patient_id": 140,
+      "ed_index_1based": 1,
+      "es_index_1based": 9,
+      "source_frames": 9
+    },
+    {
+      "patient_id": 141,
+      "ed_index_1based": 1,
+      "es_index_1based": 11,
+      "source_frames": 11
+    },
+    {
+      "patient_id": 142,
+      "ed_index_1based": 1,
+      "es_index_1based": 12,
+      "source_frames": 12
+    },
+    {
+      "patient_id": 143,
+      "ed_index_1based": 1,
+      "es_index_1based": 12,
+      "source_frames": 12
+    },
+    {
+      "patient_id": 144,
+      "ed_index_1based": 1,
+      "es_index_1based": 9,
+      "source_frames": 9
+    },
+    {
+      "patient_id": 145,
+      "ed_index_1based": 1,
+      "es_index_1based": 13,
+      "source_frames": 13
+    },
+    {
+      "patient_id": 146,
+      "ed_index_1based": 1,
+      "es_index_1based": 10,
+      "source_frames": 10
+    },
+    {
+      "patient_id": 147,
+      "ed_index_1based": 1,
+      "es_index_1based": 9,
+      "source_frames": 9
+    },
+    {
+      "patient_id": 148,
+      "ed_index_1based": 1,
+      "es_index_1based": 10,
+      "source_frames": 10
+    },
+    {
+      "patient_id": 149,
+      "ed_index_1based": 1,
+      "es_index_1based": 12,
+      "source_frames": 12
+    },
+    {
+      "patient_id": 150,
+      "ed_index_1based": 1,
+      "es_index_1based": 12,
+      "source_frames": 12
+    }
+  ],
+  "arrays": {
+    "trn_dat.npy": {
+      "path": "/mnt/Datasets/ACDC/trn_dat.npy",
+      "shape": [
+        90,
+        12,
+        128,
+        128,
+        32
+      ],
+      "dtype": "float32",
+      "size_bytes": 2264924288
+    },
+    "val_dat.npy": {
+      "path": "/mnt/Datasets/ACDC/val_dat.npy",
+      "shape": [
+        10,
+        12,
+        128,
+        128,
+        32
+      ],
+      "dtype": "float32",
+      "size_bytes": 251658368
+    },
+    "tst_dat.npy": {
+      "path": "/mnt/Datasets/ACDC/tst_dat.npy",
+      "shape": [
+        50,
+        12,
+        128,
+        128,
+        32
+      ],
+      "dtype": "float32",
+      "size_bytes": 1258291328
+    },
+    "trn_seg.npy": {
+      "path": "/mnt/Datasets/ACDC/trn_seg.npy",
+      "shape": [
+        90,
+        128,
+        128,
+        32,
+        2
+      ],
+      "dtype": "float32",
+      "size_bytes": 377487488
+    },
+    "val_seg.npy": {
+      "path": "/mnt/Datasets/ACDC/val_seg.npy",
+      "shape": [
+        10,
+        128,
+        128,
+        32,
+        2
+      ],
+      "dtype": "float32",
+      "size_bytes": 41943168
+    },
+    "tst_seg.npy": {
+      "path": "/mnt/Datasets/ACDC/tst_seg.npy",
+      "shape": [
+        50,
+        128,
+        128,
+        32,
+        2
+      ],
+      "dtype": "float32",
+      "size_bytes": 209715328
+    }
+  }
+}

@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv*/
+data/
+methods/*/weight/
+methods/*/upstream
+configs/local.*
+configs/protocol/cronos_local/
+results/*
+!results/reference/
+results/reference/*.png
+results/reference/*.pdf
+results/reference/*_per_case.csv
+results/reference/shown_cases_nrmse.csv

@@ -1,0 +1,14 @@
+{
+  "method": "delta_lfm",
+  "group": "acdc",
+  "training": {
+    "ae_steps": 600,
+    "ae_validate": 200,
+    "base_epochs": 30,
+    "fine_epochs": 10,
+    "batch_size": 8,
+    "microbatch": 2,
+    "eval_batch": 4,
+    "eval_steps": 50
+  }
+}

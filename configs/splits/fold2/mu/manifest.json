@@ -1,0 +1,2576 @@
+{
+  "dataset": "mu",
+  "shape_zyx": [
+    48,
+    80,
+    80
+  ],
+  "seed": 42,
+  "time_unit_days": 1785.0,
+  "counts": {
+    "train": 58,
+    "validation": 15,
+    "test": 37
+  },
+  "patients": [
+    {
+      "patient_id": "PatientID_0003",
+      "days": [
+        90.0,
+        146.0,
+        286.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0003/Timepoint_1/PatientID_0003_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0003/Timepoint_2/PatientID_0003_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0003/Timepoint_5/PatientID_0003_Timepoint_5_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0006",
+      "days": [
+        175.0,
+        217.0,
+        259.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0006/Timepoint_2/PatientID_0006_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0006/Timepoint_4/PatientID_0006_Timepoint_4_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0006/Timepoint_5/PatientID_0006_Timepoint_5_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0007",
+      "days": [
+        0.0,
+        178.0,
+        264.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0007/Timepoint_2/PatientID_0007_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0007/Timepoint_4/PatientID_0007_Timepoint_4_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0007/Timepoint_5/PatientID_0007_Timepoint_5_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0013",
+      "days": [
+        70.0,
+        168.0,
+        253.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0013/Timepoint_1/PatientID_0013_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0013/Timepoint_2/PatientID_0013_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0013/Timepoint_4/PatientID_0013_Timepoint_4_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0014",
+      "days": [
+        84.0,
+        126.0,
+        246.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0014/Timepoint_1/PatientID_0014_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0014/Timepoint_2/PatientID_0014_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0014/Timepoint_3/PatientID_0014_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0019",
+      "days": [
+        268.0,
+        317.0,
+        379.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0019/Timepoint_4/PatientID_0019_Timepoint_4_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0019/Timepoint_5/PatientID_0019_Timepoint_5_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0019/Timepoint_6/PatientID_0019_Timepoint_6_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0020",
+      "days": [
+        97.0,
+        173.0,
+        304.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0020/Timepoint_1/PatientID_0020_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0020/Timepoint_2/PatientID_0020_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0020/Timepoint_3/PatientID_0020_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "test",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0021",
+      "days": [
+        83.0,
+        175.0,
+        267.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0021/Timepoint_2/PatientID_0021_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0021/Timepoint_3/PatientID_0021_Timepoint_3_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0021/Timepoint_4/PatientID_0021_Timepoint_4_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0022",
+      "days": [
+        95.0,
+        147.0,
+        156.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0022/Timepoint_1/PatientID_0022_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0022/Timepoint_2/PatientID_0022_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0022/Timepoint_3/PatientID_0022_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0025",
+      "days": [
+        99.0,
+        213.0,
+        291.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0025/Timepoint_1/PatientID_0025_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0025/Timepoint_2/PatientID_0025_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0025/Timepoint_3/PatientID_0025_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "validation",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0029",
+      "days": [
+        88.0,
+        271.0,
+        728.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0029/Timepoint_1/PatientID_0029_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0029/Timepoint_3/PatientID_0029_Timepoint_3_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0029/Timepoint_4/PatientID_0029_Timepoint_4_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "test",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0032",
+      "days": [
+        91.0,
+        154.0,
+        158.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0032/Timepoint_1/PatientID_0032_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0032/Timepoint_2/PatientID_0032_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0032/Timepoint_3/PatientID_0032_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0034",
+      "days": [
+        113.0,
+        175.0,
+        217.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0034/Timepoint_1/PatientID_0034_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0034/Timepoint_2/PatientID_0034_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0034/Timepoint_3/PatientID_0034_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0036",
+      "days": [
+        78.0,
+        156.0,
+        219.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0036/Timepoint_1/PatientID_0036_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0036/Timepoint_2/PatientID_0036_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0036/Timepoint_3/PatientID_0036_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "test",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0037",
+      "days": [
+        77.0,
+        182.0,
+        280.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0037/Timepoint_1/PatientID_0037_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0037/Timepoint_2/PatientID_0037_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0037/Timepoint_3/PatientID_0037_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0038",
+      "days": [
+        102.0,
+        194.0,
+        255.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0038/Timepoint_1/PatientID_0038_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0038/Timepoint_2/PatientID_0038_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0038/Timepoint_3/PatientID_0038_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0044",
+      "days": [
+        21.0,
+        86.0,
+        184.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0044/Timepoint_1/PatientID_0044_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0044/Timepoint_2/PatientID_0044_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0044/Timepoint_3/PatientID_0044_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0045",
+      "days": [
+        98.0,
+        168.0,
+        198.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0045/Timepoint_1/PatientID_0045_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0045/Timepoint_2/PatientID_0045_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0045/Timepoint_3/PatientID_0045_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0051",
+      "days": [
+        99.0,
+        189.0,
+        276.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0051/Timepoint_1/PatientID_0051_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0051/Timepoint_3/PatientID_0051_Timepoint_3_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0051/Timepoint_4/PatientID_0051_Timepoint_4_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0059",
+      "days": [
+        46.0,
+        1155.0,
+        1332.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0059/Timepoint_1/PatientID_0059_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0059/Timepoint_2/PatientID_0059_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0059/Timepoint_3/PatientID_0059_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0068",
+      "days": [
+        13.0,
+        90.0,
+        111.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0068/Timepoint_1/PatientID_0068_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0068/Timepoint_2/PatientID_0068_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0068/Timepoint_3/PatientID_0068_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0073",
+      "days": [
+        92.0,
+        135.0,
+        190.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0073/Timepoint_1/PatientID_0073_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0073/Timepoint_2/PatientID_0073_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0073/Timepoint_3/PatientID_0073_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "test",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0074",
+      "days": [
+        34.0,
+        115.0,
+        198.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0074/Timepoint_1/PatientID_0074_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0074/Timepoint_2/PatientID_0074_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0074/Timepoint_3/PatientID_0074_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "test",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0079",
+      "days": [
+        68.0,
+        93.0,
+        105.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0079/Timepoint_1/PatientID_0079_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0079/Timepoint_2/PatientID_0079_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0079/Timepoint_3/PatientID_0079_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0087",
+      "days": [
+        129.0,
+        258.0,
+        309.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0087/Timepoint_1/PatientID_0087_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0087/Timepoint_2/PatientID_0087_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0087/Timepoint_3/PatientID_0087_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0089",
+      "days": [
+        114.0,
+        203.0,
+        294.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0089/Timepoint_1/PatientID_0089_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0089/Timepoint_2/PatientID_0089_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0089/Timepoint_3/PatientID_0089_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0097",
+      "days": [
+        85.0,
+        154.0,
+        196.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0097/Timepoint_1/PatientID_0097_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0097/Timepoint_2/PatientID_0097_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0097/Timepoint_3/PatientID_0097_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "test",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0103",
+      "days": [
+        70.0,
+        138.0,
+        182.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0103/Timepoint_1/PatientID_0103_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0103/Timepoint_2/PatientID_0103_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0103/Timepoint_3/PatientID_0103_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0117",
+      "days": [
+        85.0,
+        154.0,
+        196.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0117/Timepoint_1/PatientID_0117_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0117/Timepoint_2/PatientID_0117_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0117/Timepoint_3/PatientID_0117_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "test",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0135",
+      "days": [
+        64.0,
+        117.0,
+        182.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0135/Timepoint_1/PatientID_0135_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0135/Timepoint_2/PatientID_0135_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0135/Timepoint_3/PatientID_0135_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0138",
+      "days": [
+        -29.0,
+        39.0,
+        97.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0138/Timepoint_1/PatientID_0138_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0138/Timepoint_2/PatientID_0138_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0138/Timepoint_3/PatientID_0138_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0140",
+      "days": [
+        464.0,
+        573.0,
+        674.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0140/Timepoint_1/PatientID_0140_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0140/Timepoint_2/PatientID_0140_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0140/Timepoint_3/PatientID_0140_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0147",
+      "days": [
+        15.0,
+        65.0,
+        189.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0147/Timepoint_1/PatientID_0147_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0147/Timepoint_2/PatientID_0147_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0147/Timepoint_3/PatientID_0147_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0150",
+      "days": [
+        102.0,
+        193.0,
+        235.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0150/Timepoint_1/PatientID_0150_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0150/Timepoint_2/PatientID_0150_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0150/Timepoint_3/PatientID_0150_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0152",
+      "days": [
+        104.0,
+        150.0,
+        248.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0152/Timepoint_1/PatientID_0152_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0152/Timepoint_2/PatientID_0152_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0152/Timepoint_3/PatientID_0152_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "test",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0156",
+      "days": [
+        80.0,
+        136.0,
+        220.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0156/Timepoint_1/PatientID_0156_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0156/Timepoint_2/PatientID_0156_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0156/Timepoint_3/PatientID_0156_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "test",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0157",
+      "days": [
+        11.0,
+        64.0,
+        90.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0157/Timepoint_1/PatientID_0157_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0157/Timepoint_2/PatientID_0157_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0157/Timepoint_3/PatientID_0157_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "test",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0159",
+      "days": [
+        88.0,
+        193.0,
+        291.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0159/Timepoint_1/PatientID_0159_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0159/Timepoint_2/PatientID_0159_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0159/Timepoint_3/PatientID_0159_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "validation",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0162",
+      "days": [
+        90.0,
+        152.0,
+        208.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0162/Timepoint_1/PatientID_0162_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0162/Timepoint_2/PatientID_0162_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0162/Timepoint_3/PatientID_0162_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0171",
+      "days": [
+        45.0,
+        79.0,
+        153.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0171/Timepoint_1/PatientID_0171_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0171/Timepoint_2/PatientID_0171_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0171/Timepoint_3/PatientID_0171_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0187",
+      "days": [
+        69.0,
+        146.0,
+        301.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0187/Timepoint_1/PatientID_0187_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0187/Timepoint_2/PatientID_0187_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0187/Timepoint_3/PatientID_0187_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0191",
+      "days": [
+        109.0,
+        172.0,
+        255.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0191/Timepoint_1/PatientID_0191_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0191/Timepoint_2/PatientID_0191_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0191/Timepoint_3/PatientID_0191_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0192",
+      "days": [
+        451.0,
+        659.0,
+        981.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0192/Timepoint_1/PatientID_0192_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0192/Timepoint_2/PatientID_0192_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0192/Timepoint_3/PatientID_0192_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0197",
+      "days": [
+        6.0,
+        62.0,
+        147.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0197/Timepoint_1/PatientID_0197_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0197/Timepoint_2/PatientID_0197_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0197/Timepoint_3/PatientID_0197_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0198",
+      "days": [
+        88.0,
+        110.0,
+        186.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0198/Timepoint_1/PatientID_0198_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0198/Timepoint_2/PatientID_0198_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0198/Timepoint_3/PatientID_0198_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0205",
+      "days": [
+        21.0,
+        44.0,
+        127.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0205/Timepoint_1/PatientID_0205_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0205/Timepoint_2/PatientID_0205_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0205/Timepoint_3/PatientID_0205_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0210",
+      "days": [
+        90.0,
+        114.0,
+        136.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0210/Timepoint_1/PatientID_0210_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0210/Timepoint_2/PatientID_0210_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0210/Timepoint_3/PatientID_0210_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0212",
+      "days": [
+        -2.0,
+        52.0,
+        103.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0212/Timepoint_1/PatientID_0212_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0212/Timepoint_2/PatientID_0212_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0212/Timepoint_3/PatientID_0212_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0213",
+      "days": [
+        0.0,
+        3.0,
+        48.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0213/Timepoint_1/PatientID_0213_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0213/Timepoint_2/PatientID_0213_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0213/Timepoint_3/PatientID_0213_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "validation",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0235",
+      "days": [
+        107.0,
+        290.0,
+        694.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0235/Timepoint_1/PatientID_0235_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0235/Timepoint_3/PatientID_0235_Timepoint_3_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0235/Timepoint_6/PatientID_0235_Timepoint_6_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "validation",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0236",
+      "days": [
+        105.0,
+        231.0,
+        498.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0236/Timepoint_1/PatientID_0236_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0236/Timepoint_3/PatientID_0236_Timepoint_3_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0236/Timepoint_6/PatientID_0236_Timepoint_6_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0238",
+      "days": [
+        85.0,
+        177.0,
+        379.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0238/Timepoint_1/PatientID_0238_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0238/Timepoint_3/PatientID_0238_Timepoint_3_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0238/Timepoint_6/PatientID_0238_Timepoint_6_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0242",
+      "days": [
+        105.0,
+        350.0,
+        1210.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0242/Timepoint_1/PatientID_0242_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0242/Timepoint_3/PatientID_0242_Timepoint_3_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0242/Timepoint_6/PatientID_0242_Timepoint_6_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "validation",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0250",
+      "days": [
+        104.0,
+        174.0,
+        188.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0250/Timepoint_1/PatientID_0250_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0250/Timepoint_2/PatientID_0250_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0250/Timepoint_3/PatientID_0250_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0252",
+      "days": [
+        92.0,
+        135.0,
+        190.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0252/Timepoint_1/PatientID_0252_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0252/Timepoint_2/PatientID_0252_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0252/Timepoint_3/PatientID_0252_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0254",
+      "days": [
+        70.0,
+        138.0,
+        182.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0254/Timepoint_1/PatientID_0254_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0254/Timepoint_2/PatientID_0254_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0254/Timepoint_3/PatientID_0254_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0268",
+      "days": [
+        -20.0,
+        20.0,
+        139.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0268/Timepoint_1/PatientID_0268_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0268/Timepoint_3/PatientID_0268_Timepoint_3_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0268/Timepoint_6/PatientID_0268_Timepoint_6_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0270",
+      "days": [
+        97.0,
+        293.0,
+        426.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0270/Timepoint_1/PatientID_0270_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0270/Timepoint_3/PatientID_0270_Timepoint_3_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0270/Timepoint_6/PatientID_0270_Timepoint_6_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "train",
+      "source_split": "validation",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0010",
+      "days": [
+        84.0,
+        217.0,
+        259.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0010/Timepoint_1/PatientID_0010_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0010/Timepoint_4/PatientID_0010_Timepoint_4_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0010/Timepoint_5/PatientID_0010_Timepoint_5_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "validation",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0018",
+      "days": [
+        102.0,
+        194.0,
+        320.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0018/Timepoint_1/PatientID_0018_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0018/Timepoint_2/PatientID_0018_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0018/Timepoint_4/PatientID_0018_Timepoint_4_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "validation",
+      "source_split": "validation",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0035",
+      "days": [
+        64.0,
+        155.0,
+        260.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0035/Timepoint_1/PatientID_0035_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0035/Timepoint_2/PatientID_0035_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0035/Timepoint_3/PatientID_0035_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "validation",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0069",
+      "days": [
+        125.0,
+        176.0,
+        226.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0069/Timepoint_2/PatientID_0069_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0069/Timepoint_3/PatientID_0069_Timepoint_3_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0069/Timepoint_4/PatientID_0069_Timepoint_4_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "validation",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0078",
+      "days": [
+        -1.0,
+        102.0,
+        268.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0078/Timepoint_1/PatientID_0078_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0078/Timepoint_2/PatientID_0078_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0078/Timepoint_3/PatientID_0078_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "validation",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0084",
+      "days": [
+        -4.0,
+        97.0,
+        188.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0084/Timepoint_1/PatientID_0084_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0084/Timepoint_2/PatientID_0084_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0084/Timepoint_3/PatientID_0084_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "validation",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0105",
+      "days": [
+        82.0,
+        173.0,
+        274.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0105/Timepoint_1/PatientID_0105_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0105/Timepoint_2/PatientID_0105_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0105/Timepoint_3/PatientID_0105_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "validation",
+      "source_split": "validation",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0110",
+      "days": [
+        70.0,
+        150.0,
+        157.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0110/Timepoint_1/PatientID_0110_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0110/Timepoint_2/PatientID_0110_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0110/Timepoint_3/PatientID_0110_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "validation",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0121",
+      "days": [
+        179.0,
+        270.0,
+        313.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0121/Timepoint_1/PatientID_0121_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0121/Timepoint_2/PatientID_0121_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0121/Timepoint_3/PatientID_0121_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "validation",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0164",
+      "days": [
+        8.0,
+        29.0,
+        84.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0164/Timepoint_1/PatientID_0164_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0164/Timepoint_2/PatientID_0164_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0164/Timepoint_3/PatientID_0164_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "validation",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0186",
+      "days": [
+        1.0,
+        37.0,
+        138.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0186/Timepoint_1/PatientID_0186_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0186/Timepoint_2/PatientID_0186_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0186/Timepoint_3/PatientID_0186_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "validation",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0204",
+      "days": [
+        3.0,
+        80.0,
+        136.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0204/Timepoint_1/PatientID_0204_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0204/Timepoint_2/PatientID_0204_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0204/Timepoint_3/PatientID_0204_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "validation",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0207",
+      "days": [
+        -6.0,
+        136.0,
+        200.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0207/Timepoint_1/PatientID_0207_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0207/Timepoint_2/PatientID_0207_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0207/Timepoint_3/PatientID_0207_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "validation",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0211",
+      "days": [
+        -2.0,
+        11.0,
+        31.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0211/Timepoint_1/PatientID_0211_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0211/Timepoint_2/PatientID_0211_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0211/Timepoint_3/PatientID_0211_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "validation",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0256",
+      "days": [
+        88.0,
+        110.0,
+        186.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0256/Timepoint_1/PatientID_0256_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0256/Timepoint_2/PatientID_0256_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0256/Timepoint_3/PatientID_0256_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "validation",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0030",
+      "days": [
+        191.0,
+        509.0,
+        512.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0030/Timepoint_1/PatientID_0030_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0030/Timepoint_3/PatientID_0030_Timepoint_3_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0030/Timepoint_4/PatientID_0030_Timepoint_4_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "test",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0031",
+      "days": [
+        510.0,
+        588.0,
+        673.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0031/Timepoint_2/PatientID_0031_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0031/Timepoint_3/PatientID_0031_Timepoint_3_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0031/Timepoint_4/PatientID_0031_Timepoint_4_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "test",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0033",
+      "days": [
+        89.0,
+        160.0,
+        341.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0033/Timepoint_1/PatientID_0033_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0033/Timepoint_2/PatientID_0033_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0033/Timepoint_3/PatientID_0033_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "validation",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0039",
+      "days": [
+        99.0,
+        197.0,
+        259.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0039/Timepoint_1/PatientID_0039_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0039/Timepoint_2/PatientID_0039_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0039/Timepoint_3/PatientID_0039_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "test",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0053",
+      "days": [
+        179.0,
+        330.0,
+        491.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0053/Timepoint_1/PatientID_0053_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0053/Timepoint_3/PatientID_0053_Timepoint_3_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0053/Timepoint_4/PatientID_0053_Timepoint_4_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0055",
+      "days": [
+        93.0,
+        275.0,
+        339.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0055/Timepoint_1/PatientID_0055_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0055/Timepoint_4/PatientID_0055_Timepoint_4_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0055/Timepoint_5/PatientID_0055_Timepoint_5_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0065",
+      "days": [
+        62.0,
+        76.0,
+        139.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0065/Timepoint_1/PatientID_0065_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0065/Timepoint_2/PatientID_0065_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0065/Timepoint_3/PatientID_0065_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0066",
+      "days": [
+        44.0,
+        107.0,
+        215.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0066/Timepoint_1/PatientID_0066_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0066/Timepoint_2/PatientID_0066_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0066/Timepoint_3/PatientID_0066_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "validation",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0070",
+      "days": [
+        169.0,
+        172.0,
+        274.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0070/Timepoint_1/PatientID_0070_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0070/Timepoint_2/PatientID_0070_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0070/Timepoint_3/PatientID_0070_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0072",
+      "days": [
+        44.0,
+        147.0,
+        233.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0072/Timepoint_1/PatientID_0072_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0072/Timepoint_2/PatientID_0072_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0072/Timepoint_3/PatientID_0072_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "validation",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0083",
+      "days": [
+        36.0,
+        75.0,
+        113.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0083/Timepoint_1/PatientID_0083_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0083/Timepoint_2/PatientID_0083_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0083/Timepoint_3/PatientID_0083_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0085",
+      "days": [
+        68.0,
+        141.0,
+        202.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0085/Timepoint_1/PatientID_0085_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0085/Timepoint_2/PatientID_0085_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0085/Timepoint_3/PatientID_0085_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "test",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0093",
+      "days": [
+        109.0,
+        172.0,
+        229.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0093/Timepoint_1/PatientID_0093_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0093/Timepoint_2/PatientID_0093_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0093/Timepoint_3/PatientID_0093_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "validation",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0094",
+      "days": [
+        179.0,
+        270.0,
+        313.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0094/Timepoint_1/PatientID_0094_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0094/Timepoint_2/PatientID_0094_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0094/Timepoint_3/PatientID_0094_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0095",
+      "days": [
+        70.0,
+        150.0,
+        157.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0095/Timepoint_1/PatientID_0095_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0095/Timepoint_2/PatientID_0095_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0095/Timepoint_3/PatientID_0095_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0109",
+      "days": [
+        99.0,
+        130.0,
+        176.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0109/Timepoint_1/PatientID_0109_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0109/Timepoint_2/PatientID_0109_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0109/Timepoint_3/PatientID_0109_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0113",
+      "days": [
+        79.0,
+        121.0,
+        186.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0113/Timepoint_1/PatientID_0113_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0113/Timepoint_2/PatientID_0113_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0113/Timepoint_3/PatientID_0113_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0118",
+      "days": [
+        91.0,
+        181.0,
+        280.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0118/Timepoint_1/PatientID_0118_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0118/Timepoint_2/PatientID_0118_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0118/Timepoint_3/PatientID_0118_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "validation",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0132",
+      "days": [
+        79.0,
+        121.0,
+        186.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0132/Timepoint_1/PatientID_0132_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0132/Timepoint_2/PatientID_0132_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0132/Timepoint_3/PatientID_0132_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0136",
+      "days": [
+        15.0,
+        69.0,
+        90.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0136/Timepoint_1/PatientID_0136_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0136/Timepoint_2/PatientID_0136_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0136/Timepoint_3/PatientID_0136_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "validation",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0149",
+      "days": [
+        52.0,
+        97.0,
+        169.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0149/Timepoint_1/PatientID_0149_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0149/Timepoint_2/PatientID_0149_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0149/Timepoint_3/PatientID_0149_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0169",
+      "days": [
+        78.0,
+        106.0,
+        147.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0169/Timepoint_1/PatientID_0169_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0169/Timepoint_2/PatientID_0169_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0169/Timepoint_3/PatientID_0169_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0189",
+      "days": [
+        323.0,
+        505.0,
+        529.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0189/Timepoint_1/PatientID_0189_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0189/Timepoint_2/PatientID_0189_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0189/Timepoint_3/PatientID_0189_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "validation",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0195",
+      "days": [
+        88.0,
+        227.0,
+        303.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0195/Timepoint_1/PatientID_0195_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0195/Timepoint_2/PatientID_0195_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0195/Timepoint_3/PatientID_0195_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "test",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0196",
+      "days": [
+        79.0,
+        182.0,
+        436.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0196/Timepoint_1/PatientID_0196_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0196/Timepoint_2/PatientID_0196_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0196/Timepoint_3/PatientID_0196_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0199",
+      "days": [
+        82.0,
+        111.0,
+        146.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0199/Timepoint_1/PatientID_0199_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0199/Timepoint_2/PatientID_0199_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0199/Timepoint_3/PatientID_0199_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0201",
+      "days": [
+        96.0,
+        138.0,
+        169.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0201/Timepoint_1/PatientID_0201_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0201/Timepoint_2/PatientID_0201_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0201/Timepoint_3/PatientID_0201_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0202",
+      "days": [
+        81.0,
+        103.0,
+        130.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0202/Timepoint_1/PatientID_0202_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0202/Timepoint_2/PatientID_0202_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0202/Timepoint_3/PatientID_0202_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0209",
+      "days": [
+        11.0,
+        108.0,
+        192.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0209/Timepoint_1/PatientID_0209_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0209/Timepoint_2/PatientID_0209_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0209/Timepoint_3/PatientID_0209_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0214",
+      "days": [
+        24.0,
+        120.0,
+        135.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0214/Timepoint_1/PatientID_0214_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0214/Timepoint_2/PatientID_0214_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0214/Timepoint_3/PatientID_0214_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0215",
+      "days": [
+        54.0,
+        110.0,
+        166.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0215/Timepoint_1/PatientID_0215_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0215/Timepoint_2/PatientID_0215_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0215/Timepoint_3/PatientID_0215_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0239",
+      "days": [
+        63.0,
+        246.0,
+        533.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0239/Timepoint_1/PatientID_0239_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0239/Timepoint_3/PatientID_0239_Timepoint_3_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0239/Timepoint_6/PatientID_0239_Timepoint_6_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "test",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0240",
+      "days": [
+        62.0,
+        244.0,
+        326.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0240/Timepoint_1/PatientID_0240_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0240/Timepoint_3/PatientID_0240_Timepoint_3_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0240/Timepoint_6/PatientID_0240_Timepoint_6_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0251",
+      "days": [
+        13.0,
+        90.0,
+        111.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0251/Timepoint_1/PatientID_0251_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0251/Timepoint_2/PatientID_0251_Timepoint_2_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0251/Timepoint_3/PatientID_0251_Timepoint_3_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0271",
+      "days": [
+        42.0,
+        192.0,
+        381.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0271/Timepoint_1/PatientID_0271_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0271/Timepoint_3/PatientID_0271_Timepoint_3_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0271/Timepoint_6/PatientID_0271_Timepoint_6_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0272",
+      "days": [
+        89.0,
+        208.0,
+        376.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0272/Timepoint_1/PatientID_0272_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0272/Timepoint_3/PatientID_0272_Timepoint_3_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0272/Timepoint_6/PatientID_0272_Timepoint_6_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "validation",
+      "windows": [
+        null
+      ]
+    },
+    {
+      "patient_id": "PatientID_0275",
+      "days": [
+        104.0,
+        236.0,
+        319.0
+      ],
+      "files": [
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0275/Timepoint_1/PatientID_0275_Timepoint_1_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0275/Timepoint_3/PatientID_0275_Timepoint_3_brain_t1c.nii.gz",
+        "/mnt/Datasets/MU-Glioma-Post/raw/PatientID_0275/Timepoint_6/PatientID_0275_Timepoint_6_brain_t1c.nii.gz"
+      ],
+      "registration": {},
+      "split": "test",
+      "source_split": "train",
+      "windows": [
+        null
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "patient_id": "PatientID_0004",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0005",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0008",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0009",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0011",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0012",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0015",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0023",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0024",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0026",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0027",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0040",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0041",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0042",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0043",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0046",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0047",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0049",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0052",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0054",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0056",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0057",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0058",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0060",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0061",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0062",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0063",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0064",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0067",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0071",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0076",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0077",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0080",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0081",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0082",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0086",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0088",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0090",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0091",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0092",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0099",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0101",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0106",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0108",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0111",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0112",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0114",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0115",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0116",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0120",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0123",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0124",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0125",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0126",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0130",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0133",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0139",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0141",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0142",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0143",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0144",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0145",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0148",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0151",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0155",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0158",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0160",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0161",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0165",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0168",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0170",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0173",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0174",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0188",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0200",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0203",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0206",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0208",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0216",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0220",
+      "image_visits": 2,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0237",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0244",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0249",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0255",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0258",
+      "image_visits": 1,
+      "dated_visits": 0
+    },
+    {
+      "patient_id": "PatientID_0259",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0260",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0261",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0264",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0265",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0267",
+      "image_visits": 2,
+      "dated_visits": 2
+    },
+    {
+      "patient_id": "PatientID_0273",
+      "image_visits": 1,
+      "dated_visits": 1
+    },
+    {
+      "patient_id": "PatientID_0274",
+      "image_visits": 2,
+      "dated_visits": 2
+    }
+  ],
+  "outer_fold": 2,
+  "split_seed": 42
+}

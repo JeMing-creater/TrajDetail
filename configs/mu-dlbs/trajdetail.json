@@ -1,0 +1,16 @@
+{
+  "method": "trajdetail",
+  "group": "mu-dlbs",
+  "training": {
+    "trajectory": {
+      "control_epochs": 60,
+      "teacher_steps": 150,
+      "match_epochs": 8,
+      "benefit_epochs": 6,
+      "lr": 0.001
+    },
+    "base_epochs": 30,
+    "voxel_epochs": 32,
+    "detail_epochs": 16
+  }
+}

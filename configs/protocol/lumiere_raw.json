@@ -1,0 +1,3011 @@
+[
+  {
+    "patient_id": "Patient-001",
+    "split": "train",
+    "split_index": 0,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "a7142b27592eac02cf4ae663dc939e1ec374adf7f3ca52231495f962be060fa9",
+        "directory": "week-000-2"
+      },
+      {
+        "week": 44.0,
+        "prepared_sha256": "0a575f2fe9b16a5c01cd47b23d427c851b95809f4118cfcf0e09703c4aa794f5",
+        "directory": "week-044"
+      },
+      {
+        "week": 56.0,
+        "prepared_sha256": "d024d6cc0537a86d2464a2d43c30f062142413d56e145e869ad2cfb8d1ba4aa0",
+        "directory": "week-056"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-002",
+    "split": "train",
+    "split_index": 1,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "4984eb774fbbc51f07c5aeee969c003dcda3e85bc6f2fa8f425ca1b7ad0ebfd4",
+        "directory": "week-000"
+      },
+      {
+        "week": 3.0,
+        "prepared_sha256": "23ecb82f8f329bb9d115f44817fdc6b554c146dbc478cc936b9a0748c31d6c37",
+        "directory": "week-003"
+      },
+      {
+        "week": 21.0,
+        "prepared_sha256": "8333d84b6b4e80eb56e927ee12bcdfd44949feb4b371ef8b2aa43029c9de9c13",
+        "directory": "week-021"
+      },
+      {
+        "week": 37.0,
+        "prepared_sha256": "434cc0f672af283525f894533d331e5a8b1a9e5f241b45b20be657988d25b2b3",
+        "directory": "week-037"
+      },
+      {
+        "week": 40.0,
+        "prepared_sha256": "4b9adbb2a705490c8fc0656532d47bcbf28abb7e87ae821048bf57be3c3d49ca",
+        "directory": "week-040-2"
+      },
+      {
+        "week": 47.0,
+        "prepared_sha256": "11b35a4f08a23e8b8db5c2cd744231a060c17f24222a0d3f80ca8cdc8f0a8354",
+        "directory": "week-047"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-003",
+    "split": "train",
+    "split_index": 2,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "d1fbc0eec21c4ec22090148196779f42aa8c714d77825524075eaf96a84a86d0",
+        "directory": "week-000-2"
+      },
+      {
+        "week": 14.0,
+        "prepared_sha256": "4840534fb3f841ed3bfae08a9af4e00cf243f9857e54e95cf27cb2ed640af1bc",
+        "directory": "week-014"
+      },
+      {
+        "week": 27.0,
+        "prepared_sha256": "963c41c6c69da87883e8626139106b21eb90a0757d9218fdec59b2375c5530e6",
+        "directory": "week-027"
+      },
+      {
+        "week": 38.0,
+        "prepared_sha256": "e0c529cc6af25bc337064023c6465a96f2a715df4b0464f725f999e9e2be30d7",
+        "directory": "week-038"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-004",
+    "split": "train",
+    "split_index": 3,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "3e9be8d6ff162e67a49f9ab12bec5a929f6e422e8c34bc66deff55eb6f223e60",
+        "directory": "week-000-1"
+      },
+      {
+        "week": 20.0,
+        "prepared_sha256": "83fa851d48bfcc831def5cf09d0c62a0cc552e9c3862fa75e90a8d06c1d497c1",
+        "directory": "week-020"
+      },
+      {
+        "week": 38.0,
+        "prepared_sha256": "c4b35dc02e60bbae2c6b5651c93b91ec035bf42fef287c24fb876b0fbd8ad647",
+        "directory": "week-038"
+      },
+      {
+        "week": 41.0,
+        "prepared_sha256": "30271cab322aea1640e5816a33de0d1f5810ac024466e88e1ab34d52d629b422",
+        "directory": "week-041"
+      },
+      {
+        "week": 57.0,
+        "prepared_sha256": "81837816a69a9e32353b676a83cb279616f4fa9aef68593973ee08c2509e1eb4",
+        "directory": "week-057"
+      },
+      {
+        "week": 71.0,
+        "prepared_sha256": "398df27fcfba69814accd4597477003fdefd01337257ede16281c84e68942afd",
+        "directory": "week-071"
+      },
+      {
+        "week": 86.0,
+        "prepared_sha256": "6ab0b74edc41d50a9b25476244d0dca51ae53c23156f8e51a4c6e70e9b23f915",
+        "directory": "week-086"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-006",
+    "split": "train",
+    "split_index": 5,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "14b1e7a5b1155ed1707fc8450a324303aba12849ca1a826b260d046a7e5895a3",
+        "directory": "week-000"
+      },
+      {
+        "week": 1.0,
+        "prepared_sha256": "9d69e1abc5647ce1517438be40f7660f0cfb47efb25586bb8fff69e78bf1adb9",
+        "directory": "week-001"
+      },
+      {
+        "week": 15.0,
+        "prepared_sha256": "43db7f8393122b6c39d8804d481980cb0f42f7a42af7146cacd16d36c7234430",
+        "directory": "week-015"
+      },
+      {
+        "week": 27.0,
+        "prepared_sha256": "9b54df295c9bceab3131741a19425e7bf250022a1f95f4917ac635f8d88b01bf",
+        "directory": "week-027"
+      },
+      {
+        "week": 39.0,
+        "prepared_sha256": "1dd9bd66031a726ec62ece569103c5b93890ce5da4486141b85ccc9bcfb2978f",
+        "directory": "week-039"
+      },
+      {
+        "week": 53.0,
+        "prepared_sha256": "13a72782d4b76622471adcb110fcbc4fd8a7bc1ab2200d6cc6488fdb49969bc3",
+        "directory": "week-053"
+      },
+      {
+        "week": 67.0,
+        "prepared_sha256": "345f8c5072080d5b2f0ff254dfffb76f65c84a8ecc014aecec77e90df7bd25f0",
+        "directory": "week-067"
+      },
+      {
+        "week": 83.0,
+        "prepared_sha256": "640848ff10372281054a674053b5ce4b297ef1369558a7a4e956ebc0ce4cba8b",
+        "directory": "week-083"
+      },
+      {
+        "week": 97.0,
+        "prepared_sha256": "0f588f171194e0877a000a054251d640ab30e9b9503a16ec9de056ae9eaeb670",
+        "directory": "week-097"
+      },
+      {
+        "week": 112.0,
+        "prepared_sha256": "d1c7eb80a7b4d0ebf2fcd0effe764033b3c8e66169e9fbaf49d656d96ac349b4",
+        "directory": "week-112"
+      },
+      {
+        "week": 114.0,
+        "prepared_sha256": "450a7a58923b9e7b71822a5bf90250fb6275f2ad6c820c92ae1d8a9620a05763",
+        "directory": "week-114"
+      },
+      {
+        "week": 121.0,
+        "prepared_sha256": "1bc049d0023e62eb79f5b9dd07008fca2381cf86f93f37b18b714c8f5d3ef647",
+        "directory": "week-121"
+      },
+      {
+        "week": 131.0,
+        "prepared_sha256": "2613ce5f5e7f7bde2c413045dd080969f66d339125fae4f098d5759e4ed393d2",
+        "directory": "week-131"
+      },
+      {
+        "week": 135.0,
+        "prepared_sha256": "219899e67057674980286047861bb3defdf007798080a78adc289eae1d2df847",
+        "directory": "week-135"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-007",
+    "split": "train",
+    "split_index": 6,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "746fbe1209906274e8a19917149e38b0dbeca606e45119f914005e44522db932",
+        "directory": "week-000"
+      },
+      {
+        "week": 1.0,
+        "prepared_sha256": "88aa6e07b80abd34b591c7b24c62b9d6887c5120b89414af2d1ef407dd067f27",
+        "directory": "week-001"
+      },
+      {
+        "week": 15.0,
+        "prepared_sha256": "0cc29d16acbb375c669e60bb2b41df8e2771644688aed8f8568ade937147c65a",
+        "directory": "week-015"
+      },
+      {
+        "week": 28.0,
+        "prepared_sha256": "d921d8365076517b93c9fa494c058ccc506f85c2da040dd966fa31dec2c625d4",
+        "directory": "week-028"
+      },
+      {
+        "week": 41.0,
+        "prepared_sha256": "f6e06dca31bcd99d55c08e8496ed8836299ba91c9248379db7995c39a0fa2e1f",
+        "directory": "week-041"
+      },
+      {
+        "week": 55.0,
+        "prepared_sha256": "b861ee6c2926d0b5b40dffeaea999c251b7ccbf1cca0f56bd57937aac7feb0e8",
+        "directory": "week-055"
+      },
+      {
+        "week": 64.0,
+        "prepared_sha256": "b0ef8c80b5052f8d35e19403fb79e576dd3023f88279ae02e735d1920094a294",
+        "directory": "week-064"
+      },
+      {
+        "week": 75.0,
+        "prepared_sha256": "1bd35d341e54904af729519ef471a05b88e29203857b4ff534d3032a5ec43d1f",
+        "directory": "week-075"
+      },
+      {
+        "week": 89.0,
+        "prepared_sha256": "3ca61cfb05afa19d8f8087065c144b638c8ca5247db45548a6bb0788afe1b836",
+        "directory": "week-089"
+      },
+      {
+        "week": 105.0,
+        "prepared_sha256": "37deffd0ad460249eb449849d9a0e703dad21a817e5ce50332fb9e810c0a3a7e",
+        "directory": "week-105"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-008",
+    "split": "train",
+    "split_index": 7,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "32ce600e48088d8a33e072bfa0fd8cb749f8f91cc62bd6eb3c83a8c523cd7c89",
+        "directory": "week-000"
+      },
+      {
+        "week": 2.0,
+        "prepared_sha256": "ba41fc8eeca9b428aa301ec2cc1a0ac86f300dedb302a72c55ffdcaedb2dda8d",
+        "directory": "week-002"
+      },
+      {
+        "week": 17.0,
+        "prepared_sha256": "0fe2c6b16ca1f7860d8a87007039c095d0902884ffffb7b389aa5d1725a76d7b",
+        "directory": "week-017"
+      },
+      {
+        "week": 66.0,
+        "prepared_sha256": "bdde5a744860ee9d9089907adc23c83005e77745510dfc61f2a349de2d7f2ff2",
+        "directory": "week-066"
+      },
+      {
+        "week": 85.0,
+        "prepared_sha256": "c21e52b2fdfd6b9476b75cfd310a1c587a63670790effac94ff8186690acc767",
+        "directory": "week-085"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-009",
+    "split": "train",
+    "split_index": 8,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "f016d5948506771a248ba650df56654933aa7edbee43a297152dcf2ca277814b",
+        "directory": "week-000-2"
+      },
+      {
+        "week": 14.0,
+        "prepared_sha256": "61db7a6b156c965c97ca65b9b5fa633e08d58dfab5fc7e82cd35d47b160ee34a",
+        "directory": "week-014"
+      },
+      {
+        "week": 15.0,
+        "prepared_sha256": "66ecd36e2c68ad653022f297a403d80433aa37f452b5f2ebb2c5fb3cb900efed",
+        "directory": "week-015"
+      },
+      {
+        "week": 24.0,
+        "prepared_sha256": "cee8c1fd4b98136802dc6a80b86dd4995e37ce2019bb518fc9d5cc39bd3803cf",
+        "directory": "week-024"
+      },
+      {
+        "week": 66.0,
+        "prepared_sha256": "71c23297a9f5b7b7a146e3761fde6d99aa1bd253b06a4cd7f64e1d0e043875b9",
+        "directory": "week-066"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-010",
+    "split": "train",
+    "split_index": 9,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "a8ae6e7fadfa2975f9177dfb8f32f02387f78d97dafb53e01cd22c81141619c8",
+        "directory": "week-000"
+      },
+      {
+        "week": 1.0,
+        "prepared_sha256": "c7247a96e9bf9c873aeecddf2ea88eef09b3a605998882f87327914b9751163a",
+        "directory": "week-001"
+      },
+      {
+        "week": 15.0,
+        "prepared_sha256": "197548f0d7ba19a2e3563f6c0590de0e90b94995877c1dac5c0f6b7e575c02b3",
+        "directory": "week-015"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-011",
+    "split": "train",
+    "split_index": 10,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "c2a7fa60bf31c213d9f5fc467b77aeb1758aee41379fd3a153444558b0112e4a",
+        "directory": "week-000"
+      },
+      {
+        "week": 3.0,
+        "prepared_sha256": "7e987b7a6cfb9c96e4678ac9b3e0688f0c937f6a2c978cd7c11b5a4001e0e845",
+        "directory": "week-003"
+      },
+      {
+        "week": 21.0,
+        "prepared_sha256": "05af8a0befca3919b29ec2631f8a4f3a0a976d00abe6cf5ffe746fd65bebec98",
+        "directory": "week-021"
+      },
+      {
+        "week": 24.0,
+        "prepared_sha256": "8238d1b3360c48b1b46c3d28e91c875666f526bc9acb3c7adff97d167e4b5aaa",
+        "directory": "week-024"
+      },
+      {
+        "week": 28.0,
+        "prepared_sha256": "2d3ddeebdfb7661d9d95620cdf18770f295beab8bd924cd7a1f85c296860e039",
+        "directory": "week-028"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-012",
+    "split": "train",
+    "split_index": 11,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "2211767d76607e610f49ca842b5a730cc0366588eda00a170236736738f51637",
+        "directory": "week-000-2"
+      },
+      {
+        "week": 16.0,
+        "prepared_sha256": "c03b4c45670c716d968a71da7181921f729ecc7a180ec6c398ed48f1be01b7eb",
+        "directory": "week-016"
+      },
+      {
+        "week": 22.0,
+        "prepared_sha256": "de42347c19a87afbe314f8df95cc0b5011498ee2f7321ed0b24219a15b9a55e4",
+        "directory": "week-022"
+      },
+      {
+        "week": 48.0,
+        "prepared_sha256": "986bbb4d9406053416e4e26390ba3a47d6c24cf18fce8891d9b6e549587add6f",
+        "directory": "week-048"
+      },
+      {
+        "week": 73.0,
+        "prepared_sha256": "a9ed91d67ccdef29bcfb109c6f48313f456785b641f6fe704a1ce68ce77d23ea",
+        "directory": "week-073"
+      },
+      {
+        "week": 84.0,
+        "prepared_sha256": "9bd407c2fc7c18e92f37b814bc952a8edbc23c5263f244d25f4cf4ad0a754195",
+        "directory": "week-084"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-014",
+    "split": "train",
+    "split_index": 12,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "3ea94e5d30db111624102934a867b1b3aaa4c6c41401c0635e53f4f451910a95",
+        "directory": "week-000"
+      },
+      {
+        "week": 1.0,
+        "prepared_sha256": "785101fe9b47b6bfa466f5f8db102d8feb4c291d4f0291a455c6c90c202c20af",
+        "directory": "week-001"
+      },
+      {
+        "week": 12.0,
+        "prepared_sha256": "48c6b658cd56ebe6f20076b082fa27cfe54e11107289381675dfc952b360afa4",
+        "directory": "week-012"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-015",
+    "split": "train",
+    "split_index": 13,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "fa7ade184352764811f8b7548e8413e5771cc4f6b1e5db8ae3224f0972490e57",
+        "directory": "week-000-2"
+      },
+      {
+        "week": 21.0,
+        "prepared_sha256": "e4f2da55849b8d75b74b6ec67292c66f7bf00f481807f61630ce8f2f68e4e65b",
+        "directory": "week-021"
+      },
+      {
+        "week": 37.0,
+        "prepared_sha256": "5907b5fb38a53fc0c9e4edb2de1d98c035e3069a92d237cc69f00e45f7ece04b",
+        "directory": "week-037"
+      },
+      {
+        "week": 56.0,
+        "prepared_sha256": "80f2a217919a85f49a498a80902e80881f5b3d1c25f012a1609e02031a77d228",
+        "directory": "week-056"
+      },
+      {
+        "week": 78.0,
+        "prepared_sha256": "3d106cb51611a2c1127b69e5ee1cbae532b4633842601c641a2bfac7a49bc49c",
+        "directory": "week-078"
+      },
+      {
+        "week": 83.0,
+        "prepared_sha256": "bb002677ec241b6366055aadca08f4cb476e228aae1875098355cddefe6578f9",
+        "directory": "week-083"
+      },
+      {
+        "week": 84.0,
+        "prepared_sha256": "56a1b2e06dfaed851893e09ddd3dd81023c190ee42739f831648b82214c834b2",
+        "directory": "week-084"
+      },
+      {
+        "week": 99.0,
+        "prepared_sha256": "dd26abf0122d197641f8cf4754dca3b8575f97fba57e89161b4794eeabf75fac",
+        "directory": "week-099"
+      },
+      {
+        "week": 111.0,
+        "prepared_sha256": "ded81d8915f2f612f592f8a50d3fc3a074f97786584851fe46e615a43701f258",
+        "directory": "week-111"
+      },
+      {
+        "week": 126.0,
+        "prepared_sha256": "b0f83f3a21bee417883394d028add6e13472fa18730974b0454b50e450ec5986",
+        "directory": "week-126"
+      },
+      {
+        "week": 140.0,
+        "prepared_sha256": "9e46fd48e56794c8b1c36c41bd787cc0d02379957cec5df74b6ea35c7a960445",
+        "directory": "week-140"
+      },
+      {
+        "week": 145.0,
+        "prepared_sha256": "8c2ae8f6da86feaf89ed52177e16c1603118eed964f12da7eb68903065acf627",
+        "directory": "week-145"
+      },
+      {
+        "week": 146.0,
+        "prepared_sha256": "7cf3d0ebb519b99e9fbca76da407b71d9dda948a54a3c5b7962518dc4f919360",
+        "directory": "week-146"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-017",
+    "split": "train",
+    "split_index": 14,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "dff13251ab571125f753fd5799fe400bbae6acf01275d1da6c82470a47482b2f",
+        "directory": "week-000"
+      },
+      {
+        "week": 1.0,
+        "prepared_sha256": "b548a8e64bc745354432eba9294b61c558c909bd2bc4988fffd0b6406fd79274",
+        "directory": "week-001"
+      },
+      {
+        "week": 16.0,
+        "prepared_sha256": "111d70fee295ed17cb5d77a64e7637fc6bcdcb1d9bc9786f450160b4e8c7438a",
+        "directory": "week-016"
+      },
+      {
+        "week": 35.0,
+        "prepared_sha256": "ca2f7f94d6a4b321b7f13871a24d1ee4deaacf8be315d0a91a2cd1335467ccf8",
+        "directory": "week-035"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-018",
+    "split": "train",
+    "split_index": 15,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "8eaf535b925c0566bb4ab6d2589a435d0ea0f092a1f54cd22140c290669203c1",
+        "directory": "week-000"
+      },
+      {
+        "week": 3.0,
+        "prepared_sha256": "9991725d4780e947c7d45e01e321238e81e1c50281e7eef8b735648a159f2115",
+        "directory": "week-003"
+      },
+      {
+        "week": 17.0,
+        "prepared_sha256": "065740fba0f5dd2fd92b8da80f119d70dfaa1585cae858f409c7adac7d8406e2",
+        "directory": "week-017"
+      },
+      {
+        "week": 34.0,
+        "prepared_sha256": "ea5db50e8d31fa999952701978e453d2fa20f561ba075ff24d6a3f0bf79226ad",
+        "directory": "week-034"
+      },
+      {
+        "week": 63.0,
+        "prepared_sha256": "f0973da2366241899f717aac12ec5f393db40ab8cef08e7e63651ea3e74400be",
+        "directory": "week-063"
+      },
+      {
+        "week": 82.0,
+        "prepared_sha256": "48cf794d8ced5cebc048717e71b386368668ff5c555f982a698b90fd880dbc44",
+        "directory": "week-082"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-019",
+    "split": "train",
+    "split_index": 16,
+    "visits": [
+      {
+        "week": 5.0,
+        "prepared_sha256": "ff3663c98d986e275a6b476e62287ee69fd3bf69f041bebc67bb030f223ca2ea",
+        "directory": "week-005"
+      },
+      {
+        "week": 15.0,
+        "prepared_sha256": "22dc596985241b1cc10b2f396e57e8fa7c20021176fd6c1ccf5b2ac147bb3f83",
+        "directory": "week-015"
+      },
+      {
+        "week": 22.0,
+        "prepared_sha256": "9f2c30bc3bf018061f1d72df6ab1664ab4bc9ae0870da4ee045fe7b0204e13ea",
+        "directory": "week-022"
+      },
+      {
+        "week": 31.0,
+        "prepared_sha256": "b9ff454726eefc78259f187bd6599288ed15416cce2eb60a73c376410fec4431",
+        "directory": "week-031"
+      },
+      {
+        "week": 55.0,
+        "prepared_sha256": "4f6521b7ef0ba17773151fcfc470f078566e6c6467890f32b63a821dc38572a8",
+        "directory": "week-055"
+      },
+      {
+        "week": 61.0,
+        "prepared_sha256": "3628a548c517dfc6400792a73234db9d2d4ff0f333335f7327f52677b8f13b47",
+        "directory": "week-061"
+      },
+      {
+        "week": 75.0,
+        "prepared_sha256": "a27e4ef578c8bbfd60c20e7e5f51d1982c458ae57b6ec8180a77cc9fa6bdb9c6",
+        "directory": "week-075"
+      },
+      {
+        "week": 90.0,
+        "prepared_sha256": "3f87e00f5e7de26af3b2aaf3491f667f0850c38e35f6882bcc386be0eb692097",
+        "directory": "week-090"
+      },
+      {
+        "week": 117.0,
+        "prepared_sha256": "2edc22007accee0f41b4007f3c73105c33a3c3c72f655bca5c6f6cdddb4a3d00",
+        "directory": "week-117"
+      },
+      {
+        "week": 137.0,
+        "prepared_sha256": "f4d9f9a36c09360035a5e85db19bf692a13f10e8e5ecc30cf90785893b3f921a",
+        "directory": "week-137"
+      },
+      {
+        "week": 138.0,
+        "prepared_sha256": "216355bdbf5f23e7913d5562c2884154beabb38a60404861ea25aebde3239837",
+        "directory": "week-138"
+      },
+      {
+        "week": 141.0,
+        "prepared_sha256": "a6e0f79e38949900ee5c385a8b214c9a58245e5a014d64a8c2283af3d781c619",
+        "directory": "week-141"
+      },
+      {
+        "week": 150.0,
+        "prepared_sha256": "1d8c872e539c9dcc3cc9c7dd8995e46235d34f9459f88afbc35f4f3bec4a5a16",
+        "directory": "week-150"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-021",
+    "split": "train",
+    "split_index": 17,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "d5968920974fc77a992ec6179388ac6f1b7ea15089c8d670e860334ae802ff67",
+        "directory": "week-000-1"
+      },
+      {
+        "week": 22.0,
+        "prepared_sha256": "77d62bef1c0a8bfe4a19694c3b8059ae192ea42052098a2700d2c6c26836e23a",
+        "directory": "week-022"
+      },
+      {
+        "week": 35.0,
+        "prepared_sha256": "c80173f2f2c4b2288b31faa0d5c10617fe27e9b29a9dea7b0f23be31faeb7f37",
+        "directory": "week-035"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-022",
+    "split": "train",
+    "split_index": 18,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "588fc0045cb63d0a26e3d92c777f921205d5ed1fabfa280bce6011b42b404e87",
+        "directory": "week-000"
+      },
+      {
+        "week": 1.0,
+        "prepared_sha256": "36273f81bb8336f14f9a616ac6dc2a45be96d5ef9a6ec2f37846b8206a1ec53a",
+        "directory": "week-001"
+      },
+      {
+        "week": 37.0,
+        "prepared_sha256": "f7ea2b727188ee2df25012b75794b37f384734516f864c6557ff74363ac19401",
+        "directory": "week-037"
+      },
+      {
+        "week": 39.0,
+        "prepared_sha256": "94fb17302ab8c0951ce2963157d8194250a0ed798666c6380ea423276f052fa6",
+        "directory": "week-039"
+      },
+      {
+        "week": 45.0,
+        "prepared_sha256": "9b37bbe99fa51bd094d1d8a642ae4541932fe67b774038628778fd24a8c3e33d",
+        "directory": "week-045"
+      },
+      {
+        "week": 53.0,
+        "prepared_sha256": "abfe6aa3f5bbc6feea70d55e971c25c82a5a7a7cd031bd5b21f0d675d740f8db",
+        "directory": "week-053"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-023",
+    "split": "train",
+    "split_index": 19,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "ac6a2662e0b342b78a9675206af20fd1565c93dcb2d12ba4470b64eb07e5f005",
+        "directory": "week-000"
+      },
+      {
+        "week": 1.0,
+        "prepared_sha256": "cacb2626c56e585ff59c5f4899648f126a3076ecddabd9ae6410b553e70c8433",
+        "directory": "week-001"
+      },
+      {
+        "week": 24.0,
+        "prepared_sha256": "60b8c7f922b31de4acf47779282d0200f521d39e6cd339861e458af7de359be6",
+        "directory": "week-024"
+      },
+      {
+        "week": 39.0,
+        "prepared_sha256": "3ccecf8f22821130426710e3c85e7817e5fa24dc626d8a9a3b69246bcc019614",
+        "directory": "week-039"
+      },
+      {
+        "week": 46.0,
+        "prepared_sha256": "e4954fc774fba96be8b0f5903e2e214ddd258a24c226eaf75c736d16f9cb19a8",
+        "directory": "week-046"
+      },
+      {
+        "week": 59.0,
+        "prepared_sha256": "2f6044919c89dcad04a4a16381fb715a83520e7523621e1eeeae5df727abf0a6",
+        "directory": "week-059"
+      },
+      {
+        "week": 84.0,
+        "prepared_sha256": "d296c0a9a35044efc838edb33095d0e83aecb11c1fe807563641ef3d6a7239b5",
+        "directory": "week-084"
+      },
+      {
+        "week": 97.0,
+        "prepared_sha256": "4746de6613ce690e4e02940a8970d0b70c1d97284c9bf3e369773e1fd6394253",
+        "directory": "week-097"
+      },
+      {
+        "week": 99.0,
+        "prepared_sha256": "48da465759ac11092ed0cfc5f0f1e1ea9574f0e9b8bd86e7ab45d6d6a330a87e",
+        "directory": "week-099"
+      },
+      {
+        "week": 111.0,
+        "prepared_sha256": "417437e062d016a1466d8a24ce869e46dae96229ef4994678cbf4fd022c461e4",
+        "directory": "week-111"
+      },
+      {
+        "week": 115.0,
+        "prepared_sha256": "c4ee144b35bf40e71954f5e6725c2f1c3fef414acc5816e575e9cb07f7d3ade5",
+        "directory": "week-115"
+      },
+      {
+        "week": 127.0,
+        "prepared_sha256": "adf94947afed4f8f0bbd5d931f1cedecd911d4f962a0b868e81ad46161ebe6cf",
+        "directory": "week-127"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-024",
+    "split": "train",
+    "split_index": 20,
+    "visits": [
+      {
+        "week": 1.0,
+        "prepared_sha256": "e67f9901351163d00f0c394bcde4b85e4ef88c47d2dede2b9e1a9ee147ac0b97",
+        "directory": "week-001"
+      },
+      {
+        "week": 15.0,
+        "prepared_sha256": "51ba75932bdaf30c069b1fdd1498543012a537488df6322110edb152be848ca9",
+        "directory": "week-015"
+      },
+      {
+        "week": 18.0,
+        "prepared_sha256": "d722e145283781321eb53ce3bce78e69c4a610022f62af2a753173933348dea8",
+        "directory": "week-018"
+      },
+      {
+        "week": 19.0,
+        "prepared_sha256": "6091d258402cd1fdd934d9bf61b145055df1380c6356c0be0aa09b90d3e441a6",
+        "directory": "week-019"
+      },
+      {
+        "week": 31.0,
+        "prepared_sha256": "ac47223b8c004db3d11fac96968841d081b0c36d497b0753c62c40d0219e6141",
+        "directory": "week-031"
+      },
+      {
+        "week": 43.0,
+        "prepared_sha256": "f4a33d2f71c5abfddb0cf084cae06b938437dd192166d2f0c48114c4597954ed",
+        "directory": "week-043"
+      },
+      {
+        "week": 46.0,
+        "prepared_sha256": "77e370de503d2a80447ecc63d1654888d7ac56acb23af6f65f8d7b467394b464",
+        "directory": "week-046"
+      },
+      {
+        "week": 60.0,
+        "prepared_sha256": "37a50a2d74e7b7cc4665cc5c86b18cef58773af6ac2d0216af57919acc9a41cc",
+        "directory": "week-060"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-028",
+    "split": "train",
+    "split_index": 22,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "e99528dec7da2b70a2865301778edd861b3db7ec0028a0595b977d1a5539ddb1",
+        "directory": "week-000-2"
+      },
+      {
+        "week": 15.0,
+        "prepared_sha256": "970d1fff450847a41a9a02c5fb28b2e5758aba8a69f2d9d6c4063f54b0718f6f",
+        "directory": "week-015"
+      },
+      {
+        "week": 20.0,
+        "prepared_sha256": "a8e0a8a2af3ef24825c27c10ce5baf1a55171b141620a92d94610dfaa36d56a5",
+        "directory": "week-020"
+      },
+      {
+        "week": 21.0,
+        "prepared_sha256": "f7f510681c0435b36a9f8f5d47dd01bdf34dc35959581af1dc07c2432fd6841f",
+        "directory": "week-021"
+      },
+      {
+        "week": 25.0,
+        "prepared_sha256": "c9e008573d7265a675781e8a62c5b190a99b5baa8c4fbca6ea6aa4d799496326",
+        "directory": "week-025"
+      },
+      {
+        "week": 30.0,
+        "prepared_sha256": "a1ce2841dc67ed590950487c56349c4af917ffca62334a9813115e39f7386024",
+        "directory": "week-030"
+      },
+      {
+        "week": 35.0,
+        "prepared_sha256": "bc27423973176af182231bc2dccfbce99eed201727902905caafd9b9188ad349",
+        "directory": "week-035"
+      },
+      {
+        "week": 38.0,
+        "prepared_sha256": "1314d2af16f0956d2a0b4ef66c4ced27ef0761394b83424f9e91ead13ea86d20",
+        "directory": "week-038"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-029",
+    "split": "train",
+    "split_index": 23,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "54e070f5724f86d7e4539e0e02a5f24ce4ba1ff47b8e21d39fcda64553085f8c",
+        "directory": "week-000-2"
+      },
+      {
+        "week": 10.0,
+        "prepared_sha256": "7348d157595da0535d3a7dc82a4ca8871a6ca4ef4d7061e6d2e88adfa0a2bf20",
+        "directory": "week-010"
+      },
+      {
+        "week": 22.0,
+        "prepared_sha256": "c64b267b6a884251908cf8c6628e20abb4d1968656f14ce3b727d9ab90fd1800",
+        "directory": "week-022"
+      },
+      {
+        "week": 33.0,
+        "prepared_sha256": "6fbf6588e445d0856580d8bdd53607cc9af68e7b24c184ff78b2ec7f596678c0",
+        "directory": "week-033"
+      },
+      {
+        "week": 45.0,
+        "prepared_sha256": "810d01f2e3bf0219d3fb15c96379f4479926177b8bc495075aad780e50b762a7",
+        "directory": "week-045"
+      },
+      {
+        "week": 59.0,
+        "prepared_sha256": "0a7f7bcaa7efc75c05799fb7ebaeb7a75e694207236c49e44f8918785c13fe99",
+        "directory": "week-059"
+      },
+      {
+        "week": 100.0,
+        "prepared_sha256": "654bd07f8634bfc8b824033d9101321cf4c03e4bbbd5743e936ea7a8b1e09f3d",
+        "directory": "week-100"
+      },
+      {
+        "week": 112.0,
+        "prepared_sha256": "9494dd71c04f6a2bfa65c6de446619bddd1a087685a0bd35a224f1b3bf924def",
+        "directory": "week-112"
+      },
+      {
+        "week": 152.0,
+        "prepared_sha256": "ff8c407dad6577a3065cacbbc21e80b2692423a5e3f271dea9ea646e610b12d0",
+        "directory": "week-152"
+      },
+      {
+        "week": 165.0,
+        "prepared_sha256": "d0c85e97f929911dc6072cc2efd740ae9c8555ca9632dcfd86db491e493b4f43",
+        "directory": "week-165"
+      },
+      {
+        "week": 207.0,
+        "prepared_sha256": "81fe4ba6c5b2f331acfb611d68758a44614e8c028e0bd270b129753c5809cb3d",
+        "directory": "week-207"
+      },
+      {
+        "week": 223.0,
+        "prepared_sha256": "39aa4ab078ba173256826adcc014fedae273463e2dec2079f50564c28a42a4be",
+        "directory": "week-223"
+      },
+      {
+        "week": 255.0,
+        "prepared_sha256": "eb2e25085fdce5defc41e4cac98e1298c4df4fbaa342b5f3735cfcfb3c24da19",
+        "directory": "week-255"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-030",
+    "split": "train",
+    "split_index": 24,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "e085f67390fea5be4a22c8ca5bd94a9d09f8ad9b2db4fc0811d555758ba454c2",
+        "directory": "week-000"
+      },
+      {
+        "week": 1.0,
+        "prepared_sha256": "a152d0cd68bd5867966e85e8083fd381283de445f77922ca06a0007f82c73b8d",
+        "directory": "week-001"
+      },
+      {
+        "week": 17.0,
+        "prepared_sha256": "716df39c422abaa72fd7c2853e8ca326a81ab75cea590382e9c8b06423176fc2",
+        "directory": "week-017"
+      },
+      {
+        "week": 25.0,
+        "prepared_sha256": "47830ab583c0cf9d14182d6d101a168a0108d792756785b101384d350e0153b7",
+        "directory": "week-025"
+      },
+      {
+        "week": 41.0,
+        "prepared_sha256": "b695b050fac67d5ce0733110eff9a206ea7895015d58c84de454a39b3cc4d5e8",
+        "directory": "week-041"
+      },
+      {
+        "week": 52.0,
+        "prepared_sha256": "fe6411551b43912bdc097a8bcef927d089d49bb43a684dffa7913da23769ad41",
+        "directory": "week-052"
+      },
+      {
+        "week": 67.0,
+        "prepared_sha256": "774fbd5880ff014c656221b9317329b6aaeaa927716eb6045223c43b5aa9f0d2",
+        "directory": "week-067"
+      },
+      {
+        "week": 85.0,
+        "prepared_sha256": "950a29b71ecbfaa54dc97790aa2a10cd8d4485edd93c8f9dd8d524219f86cf9f",
+        "directory": "week-085"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-031",
+    "split": "train",
+    "split_index": 25,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "9bd4af626a9f52a460d01d99008df3ce210a703316e754958c2b4dcfe39c78d5",
+        "directory": "week-000"
+      },
+      {
+        "week": 2.0,
+        "prepared_sha256": "f8eb3f33e213ca65874203e96ca8b76f87913d8833d81b52fef34786417861eb",
+        "directory": "week-002"
+      },
+      {
+        "week": 15.0,
+        "prepared_sha256": "7a7a774f311107612664e58681eff2360c34b7badcc692a155ce771a14a170ed",
+        "directory": "week-015"
+      },
+      {
+        "week": 18.0,
+        "prepared_sha256": "5e6b055dc6de927216ddf6c078a42b3f03c9a50c1b22699428d626ad51ca4f82",
+        "directory": "week-018"
+      },
+      {
+        "week": 32.0,
+        "prepared_sha256": "fd1046156eab4439d6f7e0eef852a692b92c9b4560ebf193563f65b888e544c9",
+        "directory": "week-032"
+      },
+      {
+        "week": 46.0,
+        "prepared_sha256": "3b00a9f94630ea023537a398ed758300f1c070aa4b3ab279e5930fab88ea57f1",
+        "directory": "week-046"
+      },
+      {
+        "week": 59.0,
+        "prepared_sha256": "f731c8a1bb6560af8c5d2cebf633df68876b36b133f7664010dea00664c9e1c4",
+        "directory": "week-059"
+      },
+      {
+        "week": 74.0,
+        "prepared_sha256": "89daa59b8b5eb7744952996789404f9f366e5989af594082847f600282986f25",
+        "directory": "week-074"
+      },
+      {
+        "week": 87.0,
+        "prepared_sha256": "5281039923e7fd640ec80e51f060484cdb908380aec1849955bcc0dabb69e5a2",
+        "directory": "week-087"
+      },
+      {
+        "week": 105.0,
+        "prepared_sha256": "92d2287a9341950bee4ccc7b16aea884b5c6ec9062be5ff64d9996b43e76010c",
+        "directory": "week-105"
+      },
+      {
+        "week": 123.0,
+        "prepared_sha256": "7fc2b8676a0b09fffbcfc97df32b6e111f20d698ab6f5a80d9f2e3ec16090dd1",
+        "directory": "week-123"
+      },
+      {
+        "week": 142.0,
+        "prepared_sha256": "eb31c40b7a749eb219fb4c665129e3e42f5f5d14fce284bb7f764b712b03e0ec",
+        "directory": "week-142"
+      },
+      {
+        "week": 148.0,
+        "prepared_sha256": "efe2c8523676dbf1548c9d21f66e2623defe1639f4c5f0d550924ea73d35282e",
+        "directory": "week-148"
+      },
+      {
+        "week": 151.0,
+        "prepared_sha256": "e56e23aec79b0e3697fd0ca388ad74c62ce0999fa61de4e41f259bb9bda31c86",
+        "directory": "week-151"
+      },
+      {
+        "week": 165.0,
+        "prepared_sha256": "fd9cb86aba9cd2bf70228e18e73f2834c8e3b4f52ad3a8fcdad921baa54c409a",
+        "directory": "week-165"
+      },
+      {
+        "week": 170.0,
+        "prepared_sha256": "ec745f25df15536ef0c56a12d9b03b6ee99e66a1a31de3041d984cd54cd8f5d4",
+        "directory": "week-170"
+      },
+      {
+        "week": 184.0,
+        "prepared_sha256": "68c72b6bde500193b1656e6749089635f0bab3ab352d64327de10ee975da21c4",
+        "directory": "week-184"
+      },
+      {
+        "week": 190.0,
+        "prepared_sha256": "dd87031cc189cb904f2097616269068e8ddd4c6f039a9fb5b5f91999d03923f1",
+        "directory": "week-190"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-032",
+    "split": "train",
+    "split_index": 26,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "04c1208b63b71a2653081e270a6b95795770708bd911dd2371116e5a7204efed",
+        "directory": "week-000-1"
+      },
+      {
+        "week": 13.0,
+        "prepared_sha256": "249ea6046a5c191713cce5e9e87e95e3a69ff25db721033467d2a6b753515cdd",
+        "directory": "week-013"
+      },
+      {
+        "week": 27.0,
+        "prepared_sha256": "0c95e48df75a7515a7e453c02646b598b2182af5a72b155656eba21a7f0de20d",
+        "directory": "week-027"
+      },
+      {
+        "week": 40.0,
+        "prepared_sha256": "5e273e85db83a737940474b6d6d4305197a7b0e539b08f27d4996c56b1d57f68",
+        "directory": "week-040"
+      },
+      {
+        "week": 44.0,
+        "prepared_sha256": "bae51b5a969d21032fdc8040399f6d4aca4f45480fa3daf2e27a936ab4daf0f7",
+        "directory": "week-044"
+      },
+      {
+        "week": 46.0,
+        "prepared_sha256": "c2e7e1961a6f5f6f1b3d745b61571e343e8a704fe446c1caab6472f9215f4437",
+        "directory": "week-046"
+      },
+      {
+        "week": 55.0,
+        "prepared_sha256": "2f14bbf8b03173a9d36142e928d14311ede6fb12198a7f34cce2ddea61812164",
+        "directory": "week-055"
+      },
+      {
+        "week": 67.0,
+        "prepared_sha256": "bb3149b1dabfd44f3a92190172251f58834f5138a41bc525814f2fc72d48113f",
+        "directory": "week-067"
+      },
+      {
+        "week": 69.0,
+        "prepared_sha256": "04283edb5d1fa64deca1aac9b66255d7be5e5d7e442dd40f50389744a06cb60c",
+        "directory": "week-069"
+      },
+      {
+        "week": 75.0,
+        "prepared_sha256": "f650d4756acbb8ec69d1b516d34c5c50c4be44bf51963cb3f382d2fe23a860af",
+        "directory": "week-075"
+      },
+      {
+        "week": 85.0,
+        "prepared_sha256": "896c3a58462c731dbbf65e83f76f09e052fa23bce332a8e9ba91016638eb2252",
+        "directory": "week-085"
+      },
+      {
+        "week": 96.0,
+        "prepared_sha256": "53bc31f2cfe62e889e2dc3af0427b3241b4ffb7df898591d1dd99ed82a13eb1d",
+        "directory": "week-096"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-033",
+    "split": "train",
+    "split_index": 27,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "d5a7d0170b1117617e73ee55f309779f3b58c5da051a426eae53197e7d3dd066",
+        "directory": "week-000"
+      },
+      {
+        "week": 2.0,
+        "prepared_sha256": "417de734071d9074e69d9a471b829054fadeaad19402be40d8490b059a767502",
+        "directory": "week-002"
+      },
+      {
+        "week": 6.0,
+        "prepared_sha256": "e61d7daea350ed61940895cb42202e939bc50a5145742766173525e3be922705",
+        "directory": "week-006"
+      },
+      {
+        "week": 31.0,
+        "prepared_sha256": "a5c02ff8db703a8edc725752e358d017ba4d615f7e1aa30cd4d88b1d476f7da9",
+        "directory": "week-031"
+      },
+      {
+        "week": 49.0,
+        "prepared_sha256": "a34c8cdfb2002566c33f23ca8d393f3acefe47b98079f4ec476bfb5ab8d1a2c4",
+        "directory": "week-049"
+      },
+      {
+        "week": 63.0,
+        "prepared_sha256": "6f61e9d1972137ae264e256dc78d3e7ae82ade8412c60d70829e3fa28cc6ee1d",
+        "directory": "week-063"
+      },
+      {
+        "week": 76.0,
+        "prepared_sha256": "ba70cdafef81ecba0784fc4ef06218497e9a5e85600ba58fcb288e79604fd33c",
+        "directory": "week-076"
+      },
+      {
+        "week": 84.0,
+        "prepared_sha256": "32f51f01e4445b938660d319c7ececf18a9f6cdf6ae063af0c2fee84e8b2ba69",
+        "directory": "week-084"
+      },
+      {
+        "week": 95.0,
+        "prepared_sha256": "bb3abbc5126f65b76b8bb84f76c7e707691f7916d5095ffbdfbdd614ff89aaa3",
+        "directory": "week-095"
+      },
+      {
+        "week": 104.0,
+        "prepared_sha256": "935966907b6f4dfbd95f8d49926887e1b748c6d7e22cc84960ab34d2cc83afde",
+        "directory": "week-104"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-034",
+    "split": "train",
+    "split_index": 28,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "998d90d5c8aedd6e540964e2739809a1525346d901692fe20bae94f11db80628",
+        "directory": "week-000-1"
+      },
+      {
+        "week": 14.0,
+        "prepared_sha256": "6388296795e51243e29166a9f5bb3b16730a2366efe607e14cdeec099051898c",
+        "directory": "week-014"
+      },
+      {
+        "week": 28.0,
+        "prepared_sha256": "9c9a2007fefca85174af410f08a9fc56ae36fb503dd4c726150f53142887a018",
+        "directory": "week-028"
+      },
+      {
+        "week": 40.0,
+        "prepared_sha256": "c70751bcf5ed0102aa7cc570d4520bb6d85ac2eaa079580e9845173bc4b53318",
+        "directory": "week-040"
+      },
+      {
+        "week": 44.0,
+        "prepared_sha256": "60e48f9225a32d8f33a4b52ea8dcf1a2c77f96494cb72fea761c255ae003cfa8",
+        "directory": "week-044"
+      },
+      {
+        "week": 58.0,
+        "prepared_sha256": "8e55c20d07a657e39e034cb8141e95e581fadc9071c201128c9fdddcfe8cb9ca",
+        "directory": "week-058"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-035",
+    "split": "train",
+    "split_index": 29,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "9fb390567a281d2144cf84439714bed938e9190cbe3b64b9af46f6b8e4abeb64",
+        "directory": "week-000-2"
+      },
+      {
+        "week": 8.0,
+        "prepared_sha256": "0a75c4c8fb04cb0d1a091a8e35eb91734a84ad012b2b898eae1568277a736dbb",
+        "directory": "week-008"
+      },
+      {
+        "week": 19.0,
+        "prepared_sha256": "12474552723f51220b9a9bc419265fdd4b23c24a7ebbece2750f0dda1b77cd0a",
+        "directory": "week-019"
+      },
+      {
+        "week": 24.0,
+        "prepared_sha256": "5b32bf01f960d9ebc05ec149bec880fd2eecdcf2426d00d21d18c87ed60a99b1",
+        "directory": "week-024"
+      },
+      {
+        "week": 36.0,
+        "prepared_sha256": "15f6f5d955a98ac880ccc015808824e754aaeb541e28dfd0a6c332c95671567a",
+        "directory": "week-036"
+      },
+      {
+        "week": 50.0,
+        "prepared_sha256": "a0c9c735aad3c229a01542d7ed51b9daaaa4ea9b75a18c188ca866a17e9fda7a",
+        "directory": "week-050"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-036",
+    "split": "train",
+    "split_index": 30,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "f0a4a7fdd2bc072828e51de67855db92ed6875d24e7dc3436d956ef46a53801e",
+        "directory": "week-000"
+      },
+      {
+        "week": 2.0,
+        "prepared_sha256": "5efe939231f5b1e107f2e45b32d2425ef7225504fb49e98d02b747696c7ffa3e",
+        "directory": "week-002"
+      },
+      {
+        "week": 5.0,
+        "prepared_sha256": "e2011452d78f39701bac517bada0f6d3ce234d7b51781cd7b9fcfb321231aced",
+        "directory": "week-005"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-037",
+    "split": "train",
+    "split_index": 31,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "20097029b7f6482fe1723cb9b9c25c62c8d965c5cea78518a5d7397472fb0b4d",
+        "directory": "week-000-2"
+      },
+      {
+        "week": 2.0,
+        "prepared_sha256": "8562947442054f00f44314c13f9864321018ffa0f1f8a0f2e170b31dc880b6f7",
+        "directory": "week-002"
+      },
+      {
+        "week": 15.0,
+        "prepared_sha256": "49b99e8788276f4a984f7247e2c8fa20f26eb87c40388ea84802a54d33aff98d",
+        "directory": "week-015"
+      },
+      {
+        "week": 25.0,
+        "prepared_sha256": "a2ddb9211bfd3de4816c2911dffe74268780b05f76861bad67e0679934f17694",
+        "directory": "week-025"
+      },
+      {
+        "week": 29.0,
+        "prepared_sha256": "aab14fc13cb3b0f3efd96d83da5207ebbc94170c7b74ca2295c541797425816f",
+        "directory": "week-029"
+      },
+      {
+        "week": 37.0,
+        "prepared_sha256": "7e4cc5baef73cf44426abae6873339ba20e01daf6f956daca79144281af3dfd7",
+        "directory": "week-037"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-038",
+    "split": "train",
+    "split_index": 32,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "074b2edce6646572fe791dece0fb3b2b7d91436150ff009f30e1d94c27b0d306",
+        "directory": "week-000"
+      },
+      {
+        "week": 2.0,
+        "prepared_sha256": "ee7d49196e1893810692011e6aafb6febb59abd1a2b088be49d24889eef464d6",
+        "directory": "week-002"
+      },
+      {
+        "week": 23.0,
+        "prepared_sha256": "017dd033fa855945922f61571dd26d2c55f503f6cb8743cf3d22a80ff8096754",
+        "directory": "week-023"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-039",
+    "split": "train",
+    "split_index": 33,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "dbb2b31ef79265be767eeafb890b5268f84cf00a6553783ea80ef5cb41e8243a",
+        "directory": "week-000-2"
+      },
+      {
+        "week": 17.0,
+        "prepared_sha256": "4572674c32aa45752ae268636685b359d0621ca7e8a7b56dc246544a4759fbd3",
+        "directory": "week-017"
+      },
+      {
+        "week": 44.0,
+        "prepared_sha256": "e311bd0292dfa6312c638d2b0a2d39a9be2bea98ef4b65b28a1f474961a6fd14",
+        "directory": "week-044"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-040",
+    "split": "train",
+    "split_index": 34,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "e94ce8dcefcee8d207b0267ff20f0aad0c3fcb9718a980aaa803dbd2cd8240db",
+        "directory": "week-000"
+      },
+      {
+        "week": 1.0,
+        "prepared_sha256": "d51986ef4537dfc8781af86563fb3a64db3b0fbb4b3ba4a70d7cfd611617e648",
+        "directory": "week-001"
+      },
+      {
+        "week": 15.0,
+        "prepared_sha256": "eea6aa72ae59d1b8260051c731fec1e9539e1d75e79e0a937e2b61438b2540c2",
+        "directory": "week-015"
+      },
+      {
+        "week": 28.0,
+        "prepared_sha256": "1b21b448f90046b9fefab2a7cca60557b1ee09c9f624b6b895664c876aa9ed71",
+        "directory": "week-028"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-041",
+    "split": "train",
+    "split_index": 35,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "92340b2a2f0f81a092253be9ea2291e9e2ffbd23fa4a4bf72f1618e93640e9ec",
+        "directory": "week-000"
+      },
+      {
+        "week": 2.0,
+        "prepared_sha256": "3ba0e0e11269630a40eb824a8b314f841202fc78d6b9396ff45a63197acfe507",
+        "directory": "week-002"
+      },
+      {
+        "week": 20.0,
+        "prepared_sha256": "b7d3956022a7e85f1c5ce4d67a7b55a56b33bed8e6f5cc64c15bc08d6ec00aa2",
+        "directory": "week-020"
+      },
+      {
+        "week": 38.0,
+        "prepared_sha256": "2b2bef2ea1997ab077a0cd28c7246f511abcc034c6ff663f7cfde70c2c6710b5",
+        "directory": "week-038"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-042",
+    "split": "train",
+    "split_index": 36,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "36aa13b592e3606d2e977ad4fdfeeace8394230931724525c7e2f898d0dddf25",
+        "directory": "week-000-1"
+      },
+      {
+        "week": 4.0,
+        "prepared_sha256": "8a00ee4cd542380f7dceca41d3936a34791ab2a05cce84db7a510acdbcdb729f",
+        "directory": "week-004"
+      },
+      {
+        "week": 10.0,
+        "prepared_sha256": "04d829675c42edc5ba1aae9f34993449e6a7d28f08fed77bf24feb344e1f20d7",
+        "directory": "week-010"
+      },
+      {
+        "week": 22.0,
+        "prepared_sha256": "600a055bb324c2be791a7765c72652afd73bb1c36f71dc0ebaad6b10841f60b6",
+        "directory": "week-022"
+      },
+      {
+        "week": 35.0,
+        "prepared_sha256": "84caf5d590176d0a9cac9dcb7f1f60958e21802c40e28315c922bb890e13ef4e",
+        "directory": "week-035"
+      },
+      {
+        "week": 49.0,
+        "prepared_sha256": "e10e6dd85cafe6991a12408b183e8988407bc161393159361298502af2a5595b",
+        "directory": "week-049"
+      },
+      {
+        "week": 55.0,
+        "prepared_sha256": "8289d57017c5349aa6cf33c5ba1d93105a274435ba0871e59c470adb7bc34e4e",
+        "directory": "week-055"
+      },
+      {
+        "week": 60.0,
+        "prepared_sha256": "bb6fac6b4bc671de6e81a03de3da6f38021af5ef53f1ddc4e984c5f2b564ca35",
+        "directory": "week-060"
+      },
+      {
+        "week": 61.0,
+        "prepared_sha256": "ea98768b8b5e6b159d15d64495d42c7941157f1258d64acd8840f4d633161175",
+        "directory": "week-061-1"
+      },
+      {
+        "week": 78.0,
+        "prepared_sha256": "59e810b009caf5c48b60b86d8f6952b02f75676e450d2f308396b5b41163f52e",
+        "directory": "week-078"
+      },
+      {
+        "week": 81.0,
+        "prepared_sha256": "c9b95125fa0ea212960655a074b20f6b936594d770b4d3bc5e357a039b3cc704",
+        "directory": "week-081"
+      },
+      {
+        "week": 82.0,
+        "prepared_sha256": "48570be27aeacb411af7d66c319a898154154eea724ed6423f8bb0ece3e2baae",
+        "directory": "week-082"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-043",
+    "split": "train",
+    "split_index": 37,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "e58657528a182b24cc8b418b63f804b5c2ffd00bad3d99aba2f9f3c048c78cae",
+        "directory": "week-000"
+      },
+      {
+        "week": 2.0,
+        "prepared_sha256": "1ce9c320c82d51ffec73ee052fde80c6e1dd31332cb5ebb8e57c5972f7ccdf8e",
+        "directory": "week-002"
+      },
+      {
+        "week": 18.0,
+        "prepared_sha256": "ff0b42fddbb677a059ce5c95be1036eaa92db7f85ff892fbee53f083cf159c3a",
+        "directory": "week-018"
+      },
+      {
+        "week": 30.0,
+        "prepared_sha256": "63ef214e9ad5cf15bed2a626d8ae0da2af8323ef70a055b9ba758b84fdae9050",
+        "directory": "week-030"
+      },
+      {
+        "week": 41.0,
+        "prepared_sha256": "70cf40c83b512f4f917922d3edc3b98d30c04352c1ffb9bb9a037f787087f6b2",
+        "directory": "week-041"
+      },
+      {
+        "week": 53.0,
+        "prepared_sha256": "4a237aa4017cb72e7c4336e43978ed7c746bbabe5d1d0c1ee2b1e912172cac36",
+        "directory": "week-053"
+      },
+      {
+        "week": 67.0,
+        "prepared_sha256": "ef14b73662bde31faa0871bba9ef1f9effe87179b5f7587092acb694e9cfc4b1",
+        "directory": "week-067"
+      },
+      {
+        "week": 70.0,
+        "prepared_sha256": "b5a7d9d498be68abf9ccbab4668f1e35b65fc5a659b421a0be8edbc0661908b0",
+        "directory": "week-070"
+      },
+      {
+        "week": 84.0,
+        "prepared_sha256": "a25723ef9496b1641e70b0a820bd3d29681fb10dcae29dfd8653a681a3bb57b8",
+        "directory": "week-084"
+      },
+      {
+        "week": 98.0,
+        "prepared_sha256": "63063704a63807bd03505dc562f95487c6baf3ad771a4c9d74e65067bd96031d",
+        "directory": "week-098"
+      },
+      {
+        "week": 106.0,
+        "prepared_sha256": "9f15181caa563fd57e4fd5b83925a3402155fe835e46edb33acb05a40f170bb2",
+        "directory": "week-106"
+      },
+      {
+        "week": 116.0,
+        "prepared_sha256": "ca45355791c68840dc54789f142f10e5ecaf5e8f4c75f879c92d0084f7b4c17e",
+        "directory": "week-116"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-045",
+    "split": "train",
+    "split_index": 38,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "47c9249eff29fc3d755f9e8c3947f38c3f3dd67bbfce5b9dcc9fb114b9092c09",
+        "directory": "week-000-2"
+      },
+      {
+        "week": 17.0,
+        "prepared_sha256": "a31d899ebfe5b18ad034a7eac7d0df0d560ce3a12452185da551f91887becaec",
+        "directory": "week-017"
+      },
+      {
+        "week": 28.0,
+        "prepared_sha256": "b90adb02b6c0adad6f2b2a03fafc30aed54ee39de26558aad6bf0dd341e147a8",
+        "directory": "week-028"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-046",
+    "split": "train",
+    "split_index": 39,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "6a31778a94348e17af26d8db5da65a389a9bfe5f0fd0b6a0e834f4052537b2df",
+        "directory": "week-000"
+      },
+      {
+        "week": 1.0,
+        "prepared_sha256": "dccdacc039272e52d7c72066f23b099e15bb6d28e4cbc535cdc1db886c95787b",
+        "directory": "week-001"
+      },
+      {
+        "week": 16.0,
+        "prepared_sha256": "7621e4f41984de85f8f86d6eb8c3a227402ab30f711873883a03fb2242f7c9b7",
+        "directory": "week-016"
+      },
+      {
+        "week": 64.0,
+        "prepared_sha256": "3b7a992a64a6735b840e061b021e397950b4ade19ab0a0d1b89bc0381a015a05",
+        "directory": "week-064"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-048",
+    "split": "train",
+    "split_index": 40,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "2d93b2f1768314ec0cd75e65dcbd1b6ab384ec332ef1e021dbc0b383de37bd17",
+        "directory": "week-000-1"
+      },
+      {
+        "week": 13.0,
+        "prepared_sha256": "541f8e70018b5b3511faf3367aee1bd327a6157fafbdca64cad19427a84b38b7",
+        "directory": "week-013"
+      },
+      {
+        "week": 23.0,
+        "prepared_sha256": "6c2768fc8421b8dea0f5d53e81037bdbbe1e21f5764629f949abf67f206a00dc",
+        "directory": "week-023"
+      },
+      {
+        "week": 45.0,
+        "prepared_sha256": "07555e62c89ec259923c4e8028063e66ef77593f258fe634fae60e1b95c9d3ae",
+        "directory": "week-045"
+      },
+      {
+        "week": 49.0,
+        "prepared_sha256": "568774160839cc001ac550c9fd0a978d7e72494af332e9abcdf8c77fede33e31",
+        "directory": "week-049"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-050",
+    "split": "train",
+    "split_index": 41,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "642ac4d39b9f15720f0a3434c0022287af1cb9b54985d3df4514e2ce89f19b46",
+        "directory": "week-000"
+      },
+      {
+        "week": 1.0,
+        "prepared_sha256": "24a10fffe9b9e310b17083f950f490ea879fd36fddbcb98f95c23944d1d3ed5e",
+        "directory": "week-001"
+      },
+      {
+        "week": 48.0,
+        "prepared_sha256": "f7471813e1db24d6af6c65183756dfc00835c6a838f9d6b6c7e736eefd74fdbc",
+        "directory": "week-048"
+      },
+      {
+        "week": 51.0,
+        "prepared_sha256": "492eb6a236e6e221bc211c3860fcedf3a942a78e7fd34806ed42a8206e93d76a",
+        "directory": "week-051"
+      },
+      {
+        "week": 61.0,
+        "prepared_sha256": "cce7534c2fa0c400f9820eabde885a0fd1aa8882c938a3ad5e1b42406166c3ac",
+        "directory": "week-061"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-051",
+    "split": "train",
+    "split_index": 42,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "dfb5c76f981e230e41486c1c4b56a28a348fcf9cc3963acd2098e38011daae59",
+        "directory": "week-000-2"
+      },
+      {
+        "week": 12.0,
+        "prepared_sha256": "8f3f43ca6b44e110bbbd9486fdbdd047cd617c712a5c0586828b414546a25c2e",
+        "directory": "week-012"
+      },
+      {
+        "week": 23.0,
+        "prepared_sha256": "13358b16e50949314e53ae3fc1b6773c42c90f7a1a4ef843cd3f15fa283acecc",
+        "directory": "week-023"
+      },
+      {
+        "week": 36.0,
+        "prepared_sha256": "ffeb79c1708fabf109a2f0689110d3b6d90aafa395dc8d4b266a9fa7867ca2fd",
+        "directory": "week-036"
+      },
+      {
+        "week": 50.0,
+        "prepared_sha256": "4891e310a9a8afd96301c94787ac69ed76a264d00e2ffffc5296da3718bf50ee",
+        "directory": "week-050"
+      },
+      {
+        "week": 64.0,
+        "prepared_sha256": "f0493ca6698f0fc1b1ef98b497cec056125f9d053951433ca43c4f0046ca220f",
+        "directory": "week-064"
+      },
+      {
+        "week": 77.0,
+        "prepared_sha256": "fd27b4fdcf4d87a0163814a5ef06714dcb1243ff56e04a42f3a3c74f7ca49664",
+        "directory": "week-077"
+      },
+      {
+        "week": 89.0,
+        "prepared_sha256": "4110657398f815228fd19bc61c90d330007e4bdff1fa75a6931b79a7f47cf869",
+        "directory": "week-089"
+      },
+      {
+        "week": 103.0,
+        "prepared_sha256": "cfb29a2e644997ff317e04402ca6b5e5fdfee8541dc52f0af5fe80016195c8a3",
+        "directory": "week-103"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-052",
+    "split": "train",
+    "split_index": 43,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "17b1bebbc98f8fb1a9ce6dae48637b77e95df5ea53437db4ac007047f756e457",
+        "directory": "week-000"
+      },
+      {
+        "week": 2.0,
+        "prepared_sha256": "d105345ed34177b4553247ad274af2ec8fccb62d701b25d2a3d7ac95b0c1709c",
+        "directory": "week-002"
+      },
+      {
+        "week": 89.0,
+        "prepared_sha256": "f7c7e27c7c1fde532e3d4c140bbdd7f72d7782c6245fbac2b839f5dcc33b1374",
+        "directory": "week-089"
+      },
+      {
+        "week": 115.0,
+        "prepared_sha256": "8f213f757a6647b3e669f28b437d62243547fd5aedeeacb68ade6278d88965ac",
+        "directory": "week-115"
+      },
+      {
+        "week": 119.0,
+        "prepared_sha256": "1dfdd6fc9a235dc9c47bc9c20d6515a1c8afa9f6882e2c0d2365a7ff3deffedc",
+        "directory": "week-119"
+      },
+      {
+        "week": 133.0,
+        "prepared_sha256": "079799258cd6b6a1788d710f72b4cd102a648f583e5b4d93235dc27f21a376ca",
+        "directory": "week-133"
+      },
+      {
+        "week": 148.0,
+        "prepared_sha256": "96d28b307b3d1b64e38432bcaf6c6b2705b4669fb7b03bec1caee356d30e9845",
+        "directory": "week-148"
+      },
+      {
+        "week": 168.0,
+        "prepared_sha256": "df630dddeaa505ea2b290b1918dd39595125bb6907eb79cd3f010ccfb1df47b4",
+        "directory": "week-168"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-054",
+    "split": "train",
+    "split_index": 44,
+    "visits": [
+      {
+        "week": 2.0,
+        "prepared_sha256": "8047a4e66bd0be8d70a87b5271eee606dfa30bf14ee9615fe12683da4013c627",
+        "directory": "week-002"
+      },
+      {
+        "week": 14.0,
+        "prepared_sha256": "a8208db001a82b7012f1e6a7a6a3265ccc617f8e597e4f3431acf0f7ecd711ff",
+        "directory": "week-014"
+      },
+      {
+        "week": 26.0,
+        "prepared_sha256": "2152ca779179622a1733a601c308ed0b23caa9d384b1144178190efa9d096b1c",
+        "directory": "week-026"
+      },
+      {
+        "week": 28.0,
+        "prepared_sha256": "47ae0acfdcb70e6a63ed0c666c57f67d3a511bea367ddcf3ec3d36042484c854",
+        "directory": "week-028"
+      },
+      {
+        "week": 36.0,
+        "prepared_sha256": "acc3719d1257ca1d90505a349eb3b915f8cecf88b4e7fb901a30d70f2bd4238f",
+        "directory": "week-036"
+      },
+      {
+        "week": 43.0,
+        "prepared_sha256": "43aa92a4cdbf325d7666255818f028c3409fc27d71f2618f7c0c47ef41b28fed",
+        "directory": "week-043"
+      },
+      {
+        "week": 53.0,
+        "prepared_sha256": "584dabe9c452697b6daf3c9e9df83772d1ed16da9ab7eb77bb6f5c6d3f739252",
+        "directory": "week-053"
+      },
+      {
+        "week": 66.0,
+        "prepared_sha256": "5813755c5203a206a6b472f069d7b1a5be5acdce2c2b4c2a963262a2430bd2d5",
+        "directory": "week-066"
+      },
+      {
+        "week": 77.0,
+        "prepared_sha256": "b1ded0b30631e4dab978ed9aa091094561a955665478c358ad8b33b98c5fd038",
+        "directory": "week-077"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-055",
+    "split": "train",
+    "split_index": 45,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "2ee31a10aaa463c4477966c141eb1d9a8cdf899bbc2f77f7080b70ea81c233d3",
+        "directory": "week-000-1"
+      },
+      {
+        "week": 17.0,
+        "prepared_sha256": "62ea52c7e163cedf943632a69b30488d97fd311829c174884efe3f86dcf113d6",
+        "directory": "week-017"
+      },
+      {
+        "week": 39.0,
+        "prepared_sha256": "0ee7ddad95b92a55bc9415b93fc3ad010925c50eca3eb3f1d6c76d1f3a20019f",
+        "directory": "week-039"
+      },
+      {
+        "week": 54.0,
+        "prepared_sha256": "a1613fc967a3c23d17089307ab39e550e9f953632e2be2fd0e82bef81e63b0a0",
+        "directory": "week-054"
+      },
+      {
+        "week": 67.0,
+        "prepared_sha256": "f54a6a7a9b462b9fa5b27f5f2f15f33e3a9be0fd59f7ca88278fab2b50ecc886",
+        "directory": "week-067"
+      },
+      {
+        "week": 84.0,
+        "prepared_sha256": "238f08edade696f65d25b4e14082cfb36f21292ffbec72f26a945953dbabe272",
+        "directory": "week-084"
+      },
+      {
+        "week": 99.0,
+        "prepared_sha256": "11d61351b46cb9bbc766dcbac12610c12090b753f3e1a38483fe09498f2c8fdf",
+        "directory": "week-099"
+      },
+      {
+        "week": 118.0,
+        "prepared_sha256": "1fb6eb57f0d1baf0d2ca4de18e380cce034f2c801e8db3bdfc710f2aa1d8e651",
+        "directory": "week-118"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-058",
+    "split": "train",
+    "split_index": 46,
+    "visits": [
+      {
+        "week": 2.0,
+        "prepared_sha256": "e1b86cd059a4fff0f1bad3a57703391b061d86732ef55832a66c05592c41f1b9",
+        "directory": "week-002"
+      },
+      {
+        "week": 15.0,
+        "prepared_sha256": "86d6938299d64597a3ac962820afcbfafe1f84cad2ca3ce720dbe30d2e8f0c95",
+        "directory": "week-015"
+      },
+      {
+        "week": 27.0,
+        "prepared_sha256": "0c26b268137750546b6035e507540523b92a533b8009e38452db72e35a719b97",
+        "directory": "week-027"
+      },
+      {
+        "week": 36.0,
+        "prepared_sha256": "5cab81e11d9980176e51310630d1f81770322b3e3edcffc4e85c970c543b5a1b",
+        "directory": "week-036"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-059",
+    "split": "train",
+    "split_index": 47,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "e53ad5834a3f6c1144395c3110a49346b315dcff0ddd49541dd4a8cb16fcb529",
+        "directory": "week-000"
+      },
+      {
+        "week": 1.0,
+        "prepared_sha256": "6ecbe044da23c10339f3e7cc0d953c809df9dd50f4d30477cc170c525076f1f9",
+        "directory": "week-001"
+      },
+      {
+        "week": 14.0,
+        "prepared_sha256": "9ab9d5a3dfbb323b87488595f3705991726839c8c4dcc52153e3286507f00284",
+        "directory": "week-014"
+      },
+      {
+        "week": 24.0,
+        "prepared_sha256": "12fff6d0255b0814a30f5321a480b4d24cae65899ba90cd1b7714f8f19430aad",
+        "directory": "week-024"
+      },
+      {
+        "week": 40.0,
+        "prepared_sha256": "9a69567f785702cee4df61765c687d1a08534a5c84cf4e99342334f16ed367ea",
+        "directory": "week-040"
+      },
+      {
+        "week": 55.0,
+        "prepared_sha256": "eb232faea55f319feaed3e6f17c964f6528745c4c63df6f27ccc40b9e20c0953",
+        "directory": "week-055"
+      },
+      {
+        "week": 68.0,
+        "prepared_sha256": "9e869bab934adb121f0ca82cb81e7c069bae9d2be3083549a477cc52b1efcbe0",
+        "directory": "week-068"
+      },
+      {
+        "week": 84.0,
+        "prepared_sha256": "79415ef9cd96c3dba1ac2e7ed177021a88a00830c3f5c5d5fb7c58c008b8226e",
+        "directory": "week-084"
+      },
+      {
+        "week": 100.0,
+        "prepared_sha256": "b9ce67d199097efd74c78a45d871c1bf92331d765db7c45791d8aa50f67bb465",
+        "directory": "week-100"
+      },
+      {
+        "week": 116.0,
+        "prepared_sha256": "2ca6138c1fbc2806a8d3767424464a0e806287a4fef2766b82c412504c28106c",
+        "directory": "week-116"
+      },
+      {
+        "week": 136.0,
+        "prepared_sha256": "3b2a48fb0c82c473bc0c3f683a11552fbfc90e2bdcf53cfc0c2d79d89e216c2b",
+        "directory": "week-136"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-060",
+    "split": "validation",
+    "split_index": 0,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "d974eb8b60de9152277aecaad0d9c0117d841f5a8c53cced8056fc91d03e09ca",
+        "directory": "week-000"
+      },
+      {
+        "week": 1.0,
+        "prepared_sha256": "a755b23c28e0b431100ae71f3c15ae8b5e1366955f2566a63da0f8576968bb1c",
+        "directory": "week-001"
+      },
+      {
+        "week": 31.0,
+        "prepared_sha256": "5991f63d75c25cbcfb3cefe89d546081d9ed0ffb3e0ac8b6946db1a68c0ab237",
+        "directory": "week-031"
+      },
+      {
+        "week": 40.0,
+        "prepared_sha256": "4f6f141584bf3e4859108e68d52de43492e6eb3d8c7b3419c07d90a88fb832c2",
+        "directory": "week-040"
+      },
+      {
+        "week": 52.0,
+        "prepared_sha256": "d98755121d67b9dda8a89b05f923e792ad000e2267749ab40322645e35e8a2b8",
+        "directory": "week-052"
+      },
+      {
+        "week": 65.0,
+        "prepared_sha256": "9b2630429e950b910b4a8c04014588c6dcccbabf813a2e4b23b40352f6223e4f",
+        "directory": "week-065"
+      },
+      {
+        "week": 69.0,
+        "prepared_sha256": "7664fd7a020e0ecbbb60e716dea2a7c0fb5f1a63b599ef17ebd9756fd9489fd7",
+        "directory": "week-069"
+      },
+      {
+        "week": 70.0,
+        "prepared_sha256": "7570cd92a1fe6af5df989008f6c907f7cacf8eff40ac1322891550e9aa8c1d6b",
+        "directory": "week-070"
+      },
+      {
+        "week": 88.0,
+        "prepared_sha256": "4ebe20cba1d2193aa7262da5a89c9f79e793273c01d78cc3b5cab784da379ef2",
+        "directory": "week-088"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-061",
+    "split": "validation",
+    "split_index": 1,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "35148bc6470a4c6c56e923a5290bfdd6b854e691b9682d16cf73d4b27da64fd1",
+        "directory": "week-000-1"
+      },
+      {
+        "week": 12.0,
+        "prepared_sha256": "84424f4c4863a8c09b29b3a356a7d1df85fe9ba758da051a3b4710f9475a70f2",
+        "directory": "week-012"
+      },
+      {
+        "week": 22.0,
+        "prepared_sha256": "f17f3c95b25dd1e3db61b8ec3ede8061ad4b171cf2be390fdcda9ed6d68673d6",
+        "directory": "week-022"
+      },
+      {
+        "week": 27.0,
+        "prepared_sha256": "036db9c054d9ef203be4672345d038e2cf9706932c2a4048b7eb704ff7e977e4",
+        "directory": "week-027"
+      },
+      {
+        "week": 34.0,
+        "prepared_sha256": "2bb1a22028e849467209145ed9ce4adddde054cbf866532a0233458a769ea6ad",
+        "directory": "week-034"
+      },
+      {
+        "week": 46.0,
+        "prepared_sha256": "44652d53dc548ea911ea8f1fdb4337290b823658150c814643bed15e358980d1",
+        "directory": "week-046"
+      },
+      {
+        "week": 54.0,
+        "prepared_sha256": "6ee8b56c85f78464302f91c540294856c905b3c1c28d237db5367d8346229968",
+        "directory": "week-054"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-062",
+    "split": "validation",
+    "split_index": 2,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "103a081074842687624afd7444dadad3716662ba5599d40c72b91c7e85d5a471",
+        "directory": "week-000-2"
+      },
+      {
+        "week": 15.0,
+        "prepared_sha256": "b2f8f71b533b18a006dea4b2bf18d862f061da5f7a56197491362ebf1569edb3",
+        "directory": "week-015"
+      },
+      {
+        "week": 30.0,
+        "prepared_sha256": "8914952d2d79c8105ffe7e8bd09f81eb3969fc0166dd80a6abe0e8ee2314da4d",
+        "directory": "week-030"
+      },
+      {
+        "week": 42.0,
+        "prepared_sha256": "b05a0fc6e4583a081a881576746f58d39ea58ee4ba6149cbe0370de1200a8410",
+        "directory": "week-042"
+      },
+      {
+        "week": 50.0,
+        "prepared_sha256": "2ce86f489b511e5247a05249d670b9fae1d8c61b870556a5c6738986cebb5912",
+        "directory": "week-050"
+      },
+      {
+        "week": 57.0,
+        "prepared_sha256": "5fceb24811bda85c06be12f86cab61b0359dfc2369c2b922186984b6b66b8bc8",
+        "directory": "week-057"
+      },
+      {
+        "week": 64.0,
+        "prepared_sha256": "29e3c1898577f9df4b64553c66375658db0ca5e812bee1dced20e65e1cea914e",
+        "directory": "week-064"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-063",
+    "split": "validation",
+    "split_index": 3,
+    "visits": [
+      {
+        "week": 2.0,
+        "prepared_sha256": "aff0177db5a437a19fc9edde9d84b178de7587e387ce36028b5fa935d48f20eb",
+        "directory": "week-002"
+      },
+      {
+        "week": 15.0,
+        "prepared_sha256": "6abbfcceb3d25a9ec520a2e7b01a2eed650a5391864c35d7f2d8dd62efe845f6",
+        "directory": "week-015"
+      },
+      {
+        "week": 34.0,
+        "prepared_sha256": "24870aa149d4fa1e7f13c42016e06a72d8376b5ab994cb050085d77c1eed301d",
+        "directory": "week-034"
+      },
+      {
+        "week": 47.0,
+        "prepared_sha256": "1d6ca1883c2af24d746c443e0fbfa8b7baf96a6b9d77be8ce1fb3382d1c65bef",
+        "directory": "week-047"
+      },
+      {
+        "week": 77.0,
+        "prepared_sha256": "50908d8e08403feb25b173db9f7dc7d2beaf063dfd2162dbfd38eed8902780e7",
+        "directory": "week-077"
+      },
+      {
+        "week": 91.0,
+        "prepared_sha256": "378ca104ac60d17058ed842594d771c6491b4951f17ff5352318022ec8c2af0c",
+        "directory": "week-091"
+      },
+      {
+        "week": 105.0,
+        "prepared_sha256": "9f5169bbb3bca7db4fed3c89371640fd5bbe7529b92932867a32a490098942cf",
+        "directory": "week-105"
+      },
+      {
+        "week": 118.0,
+        "prepared_sha256": "ec5462fe2d29672aec3f67430594cbbf51c531d82377db5610d37ff5b5803d31",
+        "directory": "week-118"
+      },
+      {
+        "week": 123.0,
+        "prepared_sha256": "8e2e78b47791548fcb008349e9f4fff8312cd17aa86a83b44563acfd2eb5258c",
+        "directory": "week-123"
+      },
+      {
+        "week": 130.0,
+        "prepared_sha256": "f6a98d79db313807cd0648a0c87920fdaade41d6b42688166009049471c79ec7",
+        "directory": "week-130"
+      },
+      {
+        "week": 168.0,
+        "prepared_sha256": "35e71264376f9ddbe10b01fe54cc48c082705050606147b1ae0e28472f807749",
+        "directory": "week-168"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-064",
+    "split": "validation",
+    "split_index": 4,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "4b8c934b339a450ca1ed554a793e7f6f04d0486f820f601d7dcf946b86962626",
+        "directory": "week-000"
+      },
+      {
+        "week": 2.0,
+        "prepared_sha256": "ea4eec9c16037dfe349df7c0935ec7bab3ec10fe4be1b5e5a2c0a0a6c2ad909d",
+        "directory": "week-002"
+      },
+      {
+        "week": 20.0,
+        "prepared_sha256": "6620f5d4fb75afd39a0d18c03f573ebd025a68a495e257b4ef7937ebe838f4ad",
+        "directory": "week-020"
+      },
+      {
+        "week": 33.0,
+        "prepared_sha256": "f0142e4ccb7e0ff02e48f04621285f8752b0277e7cecf97672fa2f4963b7bcc6",
+        "directory": "week-033"
+      },
+      {
+        "week": 49.0,
+        "prepared_sha256": "89e8c0946e17e9ae863942f77b8f8349914472b8bd26e3ddd4a01cd5ed180fa2",
+        "directory": "week-049"
+      },
+      {
+        "week": 62.0,
+        "prepared_sha256": "64dda162c4d85cd3716183e12b4896c9b18a3f28d994666be30b8e9c3e58b452",
+        "directory": "week-062"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-065",
+    "split": "validation",
+    "split_index": 5,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "ec4fae87af37d28c1e96fee5e9ff99a4f613db9c61587bda6431c8e610ac80eb",
+        "directory": "week-000-2"
+      },
+      {
+        "week": 14.0,
+        "prepared_sha256": "fe09998fc9231266a4fcf35f00a87240fb98b3eeb373e00c374082c16d2ced57",
+        "directory": "week-014"
+      },
+      {
+        "week": 21.0,
+        "prepared_sha256": "86d5e068061333e8d131458b7a36df5bed1de1ded73aac60962f46d8ad3b84a5",
+        "directory": "week-021"
+      },
+      {
+        "week": 25.0,
+        "prepared_sha256": "1e25edbd6aba0dec255699cd7c17e74f9a8505cf29de4d4c3d122d10a48c884c",
+        "directory": "week-025"
+      },
+      {
+        "week": 29.0,
+        "prepared_sha256": "5661dbb98fa07b5ae179092225b213d16356ef69179ba215bfafe6d158f0bbb5",
+        "directory": "week-029"
+      },
+      {
+        "week": 79.0,
+        "prepared_sha256": "c905dce086b2c34bcb2aaec2dca4664c0ff9f932946b243fa45c7df170a4999b",
+        "directory": "week-079"
+      },
+      {
+        "week": 102.0,
+        "prepared_sha256": "b501de9fc39215f5a41ed484a3101ae4ffc66b3ac47f7a5ec3ea4622988b1b17",
+        "directory": "week-102"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-066",
+    "split": "validation",
+    "split_index": 6,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "31c6954eb81043c27924f0eb46cc58f90e069dc62450c479f9154b2af566b4fa",
+        "directory": "week-000"
+      },
+      {
+        "week": 1.0,
+        "prepared_sha256": "12d5eba069e73de5ff5e9cf520d6c0340f5fa3cfc4ae4d32be9a0aad6249e578",
+        "directory": "week-001"
+      },
+      {
+        "week": 16.0,
+        "prepared_sha256": "e83fab8777115e1be5b206c1f658037dce490c8520637eb83fe2d8a5c81fd942",
+        "directory": "week-016"
+      },
+      {
+        "week": 31.0,
+        "prepared_sha256": "859db197460a15be4dfa80ab7b0e9ca3fe750dc769aa8bca5ce93f08346cfe25",
+        "directory": "week-031"
+      },
+      {
+        "week": 46.0,
+        "prepared_sha256": "c86cb88f51d4c6498b56d6ef3a67021221b383bf45fa92e240faa6251c78b7ef",
+        "directory": "week-046"
+      },
+      {
+        "week": 50.0,
+        "prepared_sha256": "849c6ac0bc2fb4b6a6ed9b027c37ce53e02decb1ec733bb8e0321da8215c725a",
+        "directory": "week-050"
+      },
+      {
+        "week": 68.0,
+        "prepared_sha256": "6778a91d1d94536e6bc4dca8c38036a0e04dd0b4a1f0f9dafec0b6acb765dd32",
+        "directory": "week-068"
+      },
+      {
+        "week": 84.0,
+        "prepared_sha256": "59db48b83a3ffba9d7c95ccf91f80a559ac771e9facf4bd4a2c17ca88a68f8cb",
+        "directory": "week-084"
+      },
+      {
+        "week": 101.0,
+        "prepared_sha256": "b39cb34116889bd5f865a18443774db3a3de68bb4c674360a8e5f50cfd35f0e7",
+        "directory": "week-101"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-067",
+    "split": "validation",
+    "split_index": 7,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "0ce9164c2c209a26d4a00918665a0595034d31d03477d678e752a7046aa5d8b4",
+        "directory": "week-000-2"
+      },
+      {
+        "week": 13.0,
+        "prepared_sha256": "fd34b4d13f186ccb8e2e6d00de4f574fd8c3dd3835da612edec28e9a6575d726",
+        "directory": "week-013"
+      },
+      {
+        "week": 19.0,
+        "prepared_sha256": "b1b1095afa2a808712aef4e8a42e4e81ac85a80d0ba4c397c30b2471018c38f7",
+        "directory": "week-019-2"
+      },
+      {
+        "week": 33.0,
+        "prepared_sha256": "3efd48606a5b167b5ea57de2ec1787d79926db7c83f53183698cde917d25fc02",
+        "directory": "week-033"
+      },
+      {
+        "week": 42.0,
+        "prepared_sha256": "095ed4eb27926bac18866de5c746a01f31657845266592cdb95acf7fec0d6a9c",
+        "directory": "week-042"
+      },
+      {
+        "week": 53.0,
+        "prepared_sha256": "cfa8d9888f8eb96ae3b354be85bfacac00f97448db19a675a716bfdcc03b6434",
+        "directory": "week-053"
+      },
+      {
+        "week": 59.0,
+        "prepared_sha256": "b1c2cf757de323b463b6a19125064d9221afab912f45ed830a3aeaf5717a2f77",
+        "directory": "week-059"
+      },
+      {
+        "week": 68.0,
+        "prepared_sha256": "b29ccedada3eedfe4fdf1e624f27f5863b2bf72340a6e27ee6c1caa4eb408d77",
+        "directory": "week-068"
+      },
+      {
+        "week": 73.0,
+        "prepared_sha256": "4e753bff961553edd59b5650890ff1c1e21138241a554552baf86152e4175c5b",
+        "directory": "week-073"
+      },
+      {
+        "week": 77.0,
+        "prepared_sha256": "6bf4b76b7cfec0f4c12d0b8cd00d9b25e919fced2afbf7002926b8e9286ecdb2",
+        "directory": "week-077"
+      },
+      {
+        "week": 79.0,
+        "prepared_sha256": "103c21a0361ee67ffe62b65aa8676812a5934cf3a7de77cab5744d5b2a74ac80",
+        "directory": "week-079"
+      },
+      {
+        "week": 92.0,
+        "prepared_sha256": "d48b686c95a215841616e3aef0d364d118bbd6087a252cdde8f135a0fe4d8ab9",
+        "directory": "week-092"
+      },
+      {
+        "week": 109.0,
+        "prepared_sha256": "4f2c8ecf11d9b3649857cfdb5a5ee1c796baa609cdbe7c106410d5a392fca0af",
+        "directory": "week-109"
+      },
+      {
+        "week": 124.0,
+        "prepared_sha256": "732dbd01f0c8259c92423000bd18ca1338ec6785865812516c4ff6c545399680",
+        "directory": "week-124"
+      },
+      {
+        "week": 136.0,
+        "prepared_sha256": "77f0ad5e37d8faf4362229423763be408ac9ae0e4095361e1907a4503edf3343",
+        "directory": "week-136"
+      },
+      {
+        "week": 152.0,
+        "prepared_sha256": "f7a23cfc9032210681f7212e673aaaccf45fee54b4ec2d0ae0cf92ecafeebb68",
+        "directory": "week-152"
+      },
+      {
+        "week": 156.0,
+        "prepared_sha256": "41a2b1899add4d8aa1aa239a57ac70125b1b90718749fd0f93e44b501eab69d3",
+        "directory": "week-156"
+      },
+      {
+        "week": 157.0,
+        "prepared_sha256": "c4dd46cb82443dbc517a84576f2e8c416e7c44170c029f693406b502823fc2db",
+        "directory": "week-157"
+      },
+      {
+        "week": 167.0,
+        "prepared_sha256": "cf02179589e708967d767c9a937494cd663c3283092b41287b8294976e818e02",
+        "directory": "week-167"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-068",
+    "split": "validation",
+    "split_index": 8,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "3d75262703b78f3cbe62be01a37c5f56c590d65e5bb103bef3ae6c82da3af1db",
+        "directory": "week-000-2"
+      },
+      {
+        "week": 4.0,
+        "prepared_sha256": "4a88117876a4cfaea3a38620c82a87f19fb1e6c5ac5e60ee17c1caaa3b91ce55",
+        "directory": "week-004"
+      },
+      {
+        "week": 10.0,
+        "prepared_sha256": "aa48a29ea85668e0f13c95d4df7012028cec9b3d8eca40099594c96acd1d9f4e",
+        "directory": "week-010"
+      },
+      {
+        "week": 22.0,
+        "prepared_sha256": "af78a11ea3cc5897f4e82e9a9cb87119a61ef70b495a692297c06f4ef78efbe7",
+        "directory": "week-022"
+      },
+      {
+        "week": 35.0,
+        "prepared_sha256": "5f1b53c6067067239e63f2d71befcde7e2bb938994e4c57c888b39c4ad1d92bf",
+        "directory": "week-035"
+      },
+      {
+        "week": 47.0,
+        "prepared_sha256": "db2beedcb0246e2754b219d7f6db928fd8f4077aa735c9b77cdc0839646253f9",
+        "directory": "week-047"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-070",
+    "split": "validation",
+    "split_index": 9,
+    "visits": [
+      {
+        "week": 4.0,
+        "prepared_sha256": "8ec209259d81d1749693a52dcbc271e22defacb7e62f952382ffb1c0a3c54677",
+        "directory": "week-004"
+      },
+      {
+        "week": 5.0,
+        "prepared_sha256": "3fa58e3001436b61446ebbc3c908f89b206f1b1b28a23f83e28ab4d6fee7e596",
+        "directory": "week-005"
+      },
+      {
+        "week": 19.0,
+        "prepared_sha256": "764fc7673111faa1b8fa2554af270e9f8618c1439619362c4cd3221f748e8334",
+        "directory": "week-019"
+      },
+      {
+        "week": 44.0,
+        "prepared_sha256": "5940a0d493ea3a79f98548356a8686dbbd4a7428f132bf8eb21e7fe61673dc96",
+        "directory": "week-044"
+      },
+      {
+        "week": 61.0,
+        "prepared_sha256": "d6d3810a3ba380107e688577a9e8fbd26419907fc4509878bb1007d1fc24e4b4",
+        "directory": "week-061"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-071",
+    "split": "validation",
+    "split_index": 10,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "caa758a254104400893d81a7dc6f52f1bb865db2bc7c27c36c8f0868d4c24050",
+        "directory": "week-000-1"
+      },
+      {
+        "week": 24.0,
+        "prepared_sha256": "c4a3a8b1a60e29672b92c7d5faed5aa8534e5f3f92c381d8e23d2b9f31a532de",
+        "directory": "week-024"
+      },
+      {
+        "week": 27.0,
+        "prepared_sha256": "eb184c393c9268a12978c80b75b6bea5f2eef3710c0ebfb433c2d8ea14e9a08e",
+        "directory": "week-027"
+      },
+      {
+        "week": 52.0,
+        "prepared_sha256": "0b4d9e44bc332353362f0de74bdad8bdd02febbcf49f2c35bc2b8fc728b20ca5",
+        "directory": "week-052"
+      },
+      {
+        "week": 58.0,
+        "prepared_sha256": "45124d3615737c4a62dbefe6b35c66e798fa334e44d122dc2c3ab50c1ab73192",
+        "directory": "week-058"
+      },
+      {
+        "week": 62.0,
+        "prepared_sha256": "91f7a0160646bb9ef818c3b83974836eb14a29874b72d31e2adadfab0c047a31",
+        "directory": "week-062"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-072",
+    "split": "validation",
+    "split_index": 11,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "77a0d9772e02d01a9869f59fb57c8bce3e1eb65522482a9e6c63ec963dbe7fe8",
+        "directory": "week-000-1"
+      },
+      {
+        "week": 13.0,
+        "prepared_sha256": "cec32d9b0555ecb4c67bc238ccaec9847d9fd161e0508c9686929c8fbe395258",
+        "directory": "week-013"
+      },
+      {
+        "week": 21.0,
+        "prepared_sha256": "d12daa6c1457bde8ea21115836bda6db6f2865892c84d6e819814e790a8ef90a",
+        "directory": "week-021"
+      },
+      {
+        "week": 29.0,
+        "prepared_sha256": "ab27ca0b2e56f7421432b2c079b10c6a1d89c734a960ffe5e6c030eb576754b1",
+        "directory": "week-029"
+      },
+      {
+        "week": 37.0,
+        "prepared_sha256": "0ee85176353a033146fc97d19b74e5968cfe92cfff29153c6bdd7ff6046dd424",
+        "directory": "week-037"
+      },
+      {
+        "week": 46.0,
+        "prepared_sha256": "df004cb93b71a0ef891464e6c26be2211da684c0a3466e690cc2c85f92d503b1",
+        "directory": "week-046"
+      },
+      {
+        "week": 55.0,
+        "prepared_sha256": "a94a28dac687a4b8e42ca2731196d1c24f95d37a16457f306db87f8c18995530",
+        "directory": "week-055"
+      },
+      {
+        "week": 64.0,
+        "prepared_sha256": "3497571190d461da5300c5f890aabf3f9f9910f2b94d1d4331bf34a70ebbec75",
+        "directory": "week-064"
+      },
+      {
+        "week": 73.0,
+        "prepared_sha256": "6db05c014024597dd92698ecc211ce89d2b713986c15a50e5179f646b9b904a8",
+        "directory": "week-073"
+      },
+      {
+        "week": 78.0,
+        "prepared_sha256": "7219da8bbaa45f6579175c219e4b0948f72b71a0c7693585a0601252081871d0",
+        "directory": "week-078"
+      },
+      {
+        "week": 90.0,
+        "prepared_sha256": "00c47ac33223e444cb964d25758c602c69fe08c4d0685eb8c35e4edea7b686b8",
+        "directory": "week-090"
+      },
+      {
+        "week": 105.0,
+        "prepared_sha256": "524b07b7fa1db2a80de3cc3fa0cf4f93b57b41162fbfd82a322cea397ba47f36",
+        "directory": "week-105"
+      },
+      {
+        "week": 120.0,
+        "prepared_sha256": "f9e21e1d554a74bf1c302d66a097c99e54485d583e395a12af98a0153eab1374",
+        "directory": "week-120"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-073",
+    "split": "test",
+    "split_index": 0,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "8aae0509b817bf7d138d3823256a6875d648574fdc7f1978a94b807035d25277",
+        "directory": "week-000"
+      },
+      {
+        "week": 1.0,
+        "prepared_sha256": "6b4f1ab108a9472b9b4d880ec253b8d72fcc213802b142e6352d846cda417163",
+        "directory": "week-001"
+      },
+      {
+        "week": 15.0,
+        "prepared_sha256": "05f8818e31e0bac08d1d6ff8b7bd22f390466d8fb9919be8a9a3763070ea67f2",
+        "directory": "week-015"
+      },
+      {
+        "week": 32.0,
+        "prepared_sha256": "0a20a87131a469d13c223c2669258ef3c88301488163b1d146d8d52c9c3a95ff",
+        "directory": "week-032"
+      },
+      {
+        "week": 46.0,
+        "prepared_sha256": "376e5a49e5924f4b9be3cbc16ea58be34b7fdc6cd3c62194f9ef70cc50f77a7b",
+        "directory": "week-046"
+      },
+      {
+        "week": 60.0,
+        "prepared_sha256": "4935e1a852c3a1f02a60511673b9849b59857d141757419a90bf2d62360df584",
+        "directory": "week-060"
+      },
+      {
+        "week": 73.0,
+        "prepared_sha256": "40e1dc97f44f22e5af0385b147874f1c12ed8d7fe41178bca80b2d26f9a24e4e",
+        "directory": "week-073"
+      },
+      {
+        "week": 87.0,
+        "prepared_sha256": "83534d24330a543075de129918b141c810bd69e232c3c9ffa0ad51478f38ea83",
+        "directory": "week-087"
+      },
+      {
+        "week": 100.0,
+        "prepared_sha256": "9741ff5ac1e57bec7f1ff32557aef8d92ba1b373c48054ca455b2d1e5113ec57",
+        "directory": "week-100"
+      },
+      {
+        "week": 119.0,
+        "prepared_sha256": "9a7e85a0c660eb2fcf25f238773e2946b4dc11c28476868c172dd3143f19d6fd",
+        "directory": "week-119"
+      },
+      {
+        "week": 135.0,
+        "prepared_sha256": "93868aeaf7969525e474956e19bb27597addab0d9261cee8549dc0b70749e215",
+        "directory": "week-135"
+      },
+      {
+        "week": 155.0,
+        "prepared_sha256": "ee57e34346b4314ddf91a99331a2f6e9868b4ce35a2250f8d49e9a5734be9d42",
+        "directory": "week-155"
+      },
+      {
+        "week": 169.0,
+        "prepared_sha256": "7a6a6666e849edce0e1474e143aa0d55523a7cc32c6b6a30388e3da81d6dc0d6",
+        "directory": "week-169"
+      },
+      {
+        "week": 186.0,
+        "prepared_sha256": "83475932ddc34d347973d4dce7e60855a5031d188eff421bd5eac447d5cbf04b",
+        "directory": "week-186"
+      },
+      {
+        "week": 202.0,
+        "prepared_sha256": "b87799c4dadcf1ead87667dca1ab0b6addc35cda9639c7e4089a4d996138a8eb",
+        "directory": "week-202"
+      },
+      {
+        "week": 216.0,
+        "prepared_sha256": "195080944df8451ae430a5693c168a059bb73679e0366f77edbd2f647aaf659f",
+        "directory": "week-216"
+      },
+      {
+        "week": 228.0,
+        "prepared_sha256": "3dedd6c7c745af4dab190f02c822b4d73df3fa1a66c933f099dd5cdb214ec679",
+        "directory": "week-228"
+      },
+      {
+        "week": 242.0,
+        "prepared_sha256": "9f90ea2485ae423cc6ba441e9696e0fef72d9da27424d8dfb5d401345cdc2901",
+        "directory": "week-242"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-074",
+    "split": "test",
+    "split_index": 1,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "cbaf4467c2224ff12136fe506ce06bf96e175ee4d522eb09cec0311fca9d2a11",
+        "directory": "week-000-2"
+      },
+      {
+        "week": 14.0,
+        "prepared_sha256": "ed0c779febba6fd0698fcb56dfaff18f83420ac4bc210129bf2c68a7b1d366eb",
+        "directory": "week-014"
+      },
+      {
+        "week": 26.0,
+        "prepared_sha256": "b84316524d9e6b2ba22e4e4ec57d9da562ae1600c15f90b3c40417a5df9be4cf",
+        "directory": "week-026"
+      },
+      {
+        "week": 39.0,
+        "prepared_sha256": "26bd5fd9d8788bb5e6db8b63f8264c7577522a396f9a9383b4ca83e7e332825c",
+        "directory": "week-039"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-075",
+    "split": "test",
+    "split_index": 2,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "b0d6089018bcee683a2706c065622eaaa4afd8ca3cd97e8fa0a6ac4ce1a5a692",
+        "directory": "week-000"
+      },
+      {
+        "week": 2.0,
+        "prepared_sha256": "91b0bdc90c6b926567c15288843fbb4b31199facbfc579bdde753d2248816e1c",
+        "directory": "week-002"
+      },
+      {
+        "week": 20.0,
+        "prepared_sha256": "79d3bb7f7a1c3045f0c3c506833de166f5c6e675fa935f8a15b6ee55143c45ea",
+        "directory": "week-020"
+      },
+      {
+        "week": 32.0,
+        "prepared_sha256": "70dfccff0cb8c08fc719899b4011a8eaaa4f426ca7ae443d3a8d1acc19f1d946",
+        "directory": "week-032"
+      },
+      {
+        "week": 44.0,
+        "prepared_sha256": "83e89521ed947ca465bc4ef83376a47e8be6627e82ffdae44377b296e4202e8a",
+        "directory": "week-044"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-077",
+    "split": "test",
+    "split_index": 3,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "210ba5840a76fa1393d4e87afd8f6f2f7afe4187f7d55f82b76dc2e4f4c7a932",
+        "directory": "week-000"
+      },
+      {
+        "week": 1.0,
+        "prepared_sha256": "71e1dcba1afae21cbfd05469ba16ff3ac0de519d1047945fd566323928ee6608",
+        "directory": "week-001"
+      },
+      {
+        "week": 14.0,
+        "prepared_sha256": "5c209988e88b990d0f93a122f1176c6d3c38e81413465131a59669dbdfb4b0a0",
+        "directory": "week-014"
+      },
+      {
+        "week": 26.0,
+        "prepared_sha256": "f414c10399ae3b9287ef0feab1026af3b44d70bad86a050e889ebb2fee79e70e",
+        "directory": "week-026"
+      },
+      {
+        "week": 33.0,
+        "prepared_sha256": "8baa5aee23733a7ec4c19e96a2122fa3cbe8f1b72b16f77eb65ff0df5dc02f17",
+        "directory": "week-033"
+      },
+      {
+        "week": 48.0,
+        "prepared_sha256": "1c52c9e81c12c59da1560d9d849911f77943badeb39556dfe9685e1832347b4d",
+        "directory": "week-048"
+      },
+      {
+        "week": 62.0,
+        "prepared_sha256": "fe7819dc61154dbf5e3c3c03fa2fd9744f547a3f0a8e2591b4b907c73f9891dd",
+        "directory": "week-062"
+      },
+      {
+        "week": 70.0,
+        "prepared_sha256": "d0a95da08ad45a9bd5691b22dd6f5a4903aeea696cedc45e9ad996ffc11c8147",
+        "directory": "week-070"
+      },
+      {
+        "week": 83.0,
+        "prepared_sha256": "b64791b822a114736b66a821b64ac21a3314141401c752e21fe077051f5506d1",
+        "directory": "week-083"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-078",
+    "split": "test",
+    "split_index": 4,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "9527518ffcd627b899da0bc37a88e1b3972b5eeef9e69d51e5c073c8586589f0",
+        "directory": "week-000"
+      },
+      {
+        "week": 1.0,
+        "prepared_sha256": "e7dae7c48e30951f994d896b6a8392fee54c6a854aeeafe113bdb4dfde3b3466",
+        "directory": "week-001"
+      },
+      {
+        "week": 5.0,
+        "prepared_sha256": "7607ffacd9c5ba0a81750877ddca6303265a468ef89ad3709ed4afdaed183a56",
+        "directory": "week-005"
+      },
+      {
+        "week": 19.0,
+        "prepared_sha256": "59dc65420ba38bf3a78761c6784c0d21f82de3af1246553f24e9bd522304b4ed",
+        "directory": "week-019"
+      },
+      {
+        "week": 29.0,
+        "prepared_sha256": "3c12b2b8bb9f035f8866270ec0d431e1a13f0c3accc287bbe14931e0873ec9e6",
+        "directory": "week-029"
+      },
+      {
+        "week": 37.0,
+        "prepared_sha256": "080cffef540215b85404ea205ebb93479aa9251280f1d6ba18f80d3b5f5f0085",
+        "directory": "week-037"
+      },
+      {
+        "week": 39.0,
+        "prepared_sha256": "43950ae9725c44c757b4cf81ff6c53fc63bc8e860344d8981de0e7f06d6c0edd",
+        "directory": "week-039"
+      },
+      {
+        "week": 41.0,
+        "prepared_sha256": "16e0e6b1797fec39390710ffca4d83210622a1cb5912779998ba8c85e3eb02de",
+        "directory": "week-041"
+      },
+      {
+        "week": 45.0,
+        "prepared_sha256": "d5c7ab88cdafbb2be0feb42eb93dc9b0daab3379b64bfcaa6f6f01151ab5e5a1",
+        "directory": "week-045"
+      },
+      {
+        "week": 56.0,
+        "prepared_sha256": "d4e944ba6482056154c6f03b0008d79f55ebb01bbbb2ca459a7652a487de95ae",
+        "directory": "week-056"
+      },
+      {
+        "week": 62.0,
+        "prepared_sha256": "917d0caee15723d99f8c3a711f7f9bcbdf0ece0e987454fb8d4c8bf0a1f880dd",
+        "directory": "week-062"
+      },
+      {
+        "week": 76.0,
+        "prepared_sha256": "f8e1c66d36c5f067eca363ff510a2bfcf0e7caf72e223617f77a58dcd18dcdab",
+        "directory": "week-076"
+      },
+      {
+        "week": 88.0,
+        "prepared_sha256": "036ca41a141cce3836de2f0e09cd5e69654e932e13c23fca9a84a555a3f65f4b",
+        "directory": "week-088"
+      },
+      {
+        "week": 106.0,
+        "prepared_sha256": "5564346b1d573914e0e1e7bf291b31386a34e2cfd9c5508477e8360f66f7a121",
+        "directory": "week-106"
+      },
+      {
+        "week": 113.0,
+        "prepared_sha256": "f68d36f1179f2a43272f8c4a4226feaa7b9d6d316326c715e7a9015e5d78514d",
+        "directory": "week-113"
+      },
+      {
+        "week": 116.0,
+        "prepared_sha256": "0c633d2f7dd436e084b475fba2187af7c527e38ee184a9bb6fcfd4f9f60038d2",
+        "directory": "week-116"
+      },
+      {
+        "week": 119.0,
+        "prepared_sha256": "5e261b73508932e38b67a4c9cb209500be59c9ec4047f6ce18db697bf006eb07",
+        "directory": "week-119"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-080",
+    "split": "test",
+    "split_index": 5,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "a2212f299b01a4cec9b824eade0c75ae07f8a1dd0a90d1f7e9e70995ce933eb4",
+        "directory": "week-000"
+      },
+      {
+        "week": 1.0,
+        "prepared_sha256": "2b4f9c7030d75fae548765eac4c94981a096546a909d482610605450c040f8b4",
+        "directory": "week-001"
+      },
+      {
+        "week": 18.0,
+        "prepared_sha256": "5da4c276eb10f8b449a46aab4c6b0703a131573778a958ce6fc0c018bcf7b059",
+        "directory": "week-018"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-085",
+    "split": "test",
+    "split_index": 9,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "778d77e61d46a517a6df5cf05da26250d96e735d8b9f2bba66378cf359ee0b73",
+        "directory": "week-000-2"
+      },
+      {
+        "week": 1.0,
+        "prepared_sha256": "afbb7b0b7a438f7c2db8422916abd7f56ae4fbd9bac99af2af1e934cde599a86",
+        "directory": "week-001"
+      },
+      {
+        "week": 18.0,
+        "prepared_sha256": "c17052b8cb6f4a06591ae2e71f577cf1edca240e08502d668fd2230ba06e7fde",
+        "directory": "week-018"
+      },
+      {
+        "week": 25.0,
+        "prepared_sha256": "cc9f34cf60007397f7cde1f9aaabf039a6a222fb80d6c4e2d7ae24f0226d24b1",
+        "directory": "week-025"
+      },
+      {
+        "week": 42.0,
+        "prepared_sha256": "c4eb2859077686a45a0aca3af6fefaec058df3cfcb5431a4bda01c0d69d1a558",
+        "directory": "week-042"
+      },
+      {
+        "week": 50.0,
+        "prepared_sha256": "255870430fd5c9685149522d408c09a7f07bc30122bfdc51732e11caebbe61fa",
+        "directory": "week-050"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-086",
+    "split": "test",
+    "split_index": 10,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "02e94665a14a8c080b3bced1a23589e08c98bc6a9f3eb7a171062578d419b7ae",
+        "directory": "week-000"
+      },
+      {
+        "week": 1.0,
+        "prepared_sha256": "96c701f82f39c714f83e1687ba1fdd4f135f49069e24d2ed3efd1f99c6c2e41f",
+        "directory": "week-001"
+      },
+      {
+        "week": 156.0,
+        "prepared_sha256": "2e19feeae1c12bcdac5902815cd57b3086bed2e713645483db6b49b4ec850194",
+        "directory": "week-156"
+      },
+      {
+        "week": 169.0,
+        "prepared_sha256": "1c5664292a49fb4744543b3fc280136b10a5b8140a7ba63f26d8f963445a2667",
+        "directory": "week-169"
+      },
+      {
+        "week": 173.0,
+        "prepared_sha256": "d75bf5a381b7927ecb5f2932f0438281b1726cfbe007dbf9d29b17efe36f9a2c",
+        "directory": "week-173-2"
+      },
+      {
+        "week": 181.0,
+        "prepared_sha256": "d3af30b05d810ec2aea0af13058218867d838565e6c3d5f707752b3f8c2a534a",
+        "directory": "week-181"
+      }
+    ]
+  },
+  {
+    "patient_id": "Patient-089",
+    "split": "test",
+    "split_index": 12,
+    "visits": [
+      {
+        "week": 0.0,
+        "prepared_sha256": "73fc579960630785256a77ef7d6e464930a1f15e977e9c4ecd6e63533e1c8e88",
+        "directory": "week-000-1"
+      },
+      {
+        "week": 45.0,
+        "prepared_sha256": "fd05199896edd9d1f289967f72bc84d38a653e285e7b3fbe270ca67a79088957",
+        "directory": "week-045"
+      },
+      {
+        "week": 46.0,
+        "prepared_sha256": "4585c5b16dbca7bc2e25a0a8c74468515bcde4ce4a7710499769a1359823ede5",
+        "directory": "week-046"
+      },
+      {
+        "week": 56.0,
+        "prepared_sha256": "09aec6d2572d380871983313ce0d852befeed12378d378265dbfea8e18cc4091",
+        "directory": "week-056"
+      },
+      {
+        "week": 64.0,
+        "prepared_sha256": "c06da50cd2b41e4d8e5b84bef4d22b3bb85048fa14334b6eb93f01510b35d752",
+        "directory": "week-064"
+      }
+    ]
+  }
+]

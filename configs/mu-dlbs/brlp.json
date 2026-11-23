@@ -1,0 +1,13 @@
+{
+  "method": "brlp",
+  "group": "mu-dlbs",
+  "training": {
+    "ae_steps": 600,
+    "diffusion_epochs": 30,
+    "control_epochs": 15,
+    "decoder_steps": 600,
+    "decoder_lr": 0.0001,
+    "sampling_steps": 25,
+    "latent_samples": 10
+  }
+}

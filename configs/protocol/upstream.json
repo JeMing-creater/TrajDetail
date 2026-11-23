@@ -1,0 +1,25 @@
+{
+  "imageflownet": {
+    "remote": "https://github.com/KrishnaswamyLab/ImageFlowNet"
+  },
+  "brlp": {
+    "commit": "9571d28b4e8657c5b57b4dc52c3672acba5334ba",
+    "remote": "https://github.com/LemuelPuglisi/BrLP.git"
+  },
+  "log4d": {
+    "commit": "bcb002b88fe19a1c391d3c398eb7e20d9d2b4f2f",
+    "remote": "https://github.com/vfb8zv/4DLoG.git"
+  },
+  "delta_lfm": {
+    "remote": "https://github.com/chqwer2/Disease-Progression-World-Model"
+  },
+  "trajdetail": {
+    "commit": "6876159a11b4df116f30f667f8c9888617df0751",
+    "remote": "https://github.com/facebookresearch/dinov3.git"
+  },
+  "cronos": {
+    "remote": "https://github.com/MIC-DKFZ/Longitudinal4DMed",
+    "source": "archived code from the benchmark implementation",
+    "commit": "856a1360dcbdb1e89fb9c847b3cc28748b7dc11f"
+  }
+}

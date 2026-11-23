@@ -1,0 +1,9 @@
+{
+  "method": "log4d",
+  "group": "mu-dlbs",
+  "training": {
+    "registration_epochs": 30,
+    "diffusion_epochs": 60,
+    "sampling_steps": 100
+  }
+}
