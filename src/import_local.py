@@ -107,14 +107,16 @@ def reference(old):
     target.mkdir(parents=True, exist_ok=True)
     base = old / "runs/comparators_20261122/chronological_comparison"
     repair = old / "runs/brlp_repair_20261123"
+    historical = target / "historical"
+    historical.mkdir(exist_ok=True)
     for name in ("chronological_nrmse.csv", "shown_cases_nrmse.csv", "five_cohorts_predictions_and_errors.pdf",
                  *(f"{dataset}_predictions_and_errors.png" for dataset in DATASETS)):
-        shutil.copyfile(base / name, target / name)
-    shutil.copyfile(repair / "brlp_comparison.png", target / "brlp_repair.png")
+        shutil.copyfile(base / name, historical / name)
+    shutil.copyfile(repair / "brlp_comparison.png", historical / "brlp_repair.png")
     shutil.copyfile(repair / "nrmse_3fold.csv", target / "brlp_repair_nrmse.csv")
     with (repair / "nrmse_3fold.csv").open() as stream:
         updated = {row["dataset"]: row for row in csv.DictReader(stream)}
-    with (target / "chronological_nrmse.csv").open() as stream:
+    with (base / "chronological_nrmse.csv").open() as stream:
         table = list(csv.DictReader(stream))
     labels = dict(acdc="ACDC", lumiere="LUMIERE", isles="ISLES’24", mu="MU-Glioma-Post", dlbs="DLBS")
     for row in table:
@@ -124,6 +126,7 @@ def reference(old):
                 row[f"{label} mean"], row[f"{label} SD"] = (updated[name][f"updated_{key}"]
                                                           for key in ("mean", "sd"))
     write_csv(target / "nrmse_3fold.csv", table)
+    shutil.copyfile(target / "nrmse_3fold.csv", target / "chronological_nrmse.csv")
 
 
 def main():

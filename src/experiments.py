@@ -18,7 +18,7 @@ REFERENCES = METHODS[:2]
 SIMPLE = METHODS[2:8]
 GROUPS = {"legacy": LEGACY, "mu-dlbs": NEW}
 DISPLAY = dict(zip(METHODS, ("Last image", "Linear extrapolation", "ConvLSTM", "SimVP",
-                            "NODE + LSTM", "ViViT", "CRONOS", "ImageFlowNet", "BrLP",
+                            "NODE + LSTM", "ViViT", "CRONOS", "ImageFlowNet", "BrLP (revised)",
                             "Δ-LFM (Euler 50)", "4DLoG", "TrajDetail"), strict=True))
 
 

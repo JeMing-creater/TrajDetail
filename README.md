@@ -21,7 +21,7 @@ The TrajDetail implementation is in [methods/trajdetail](methods/trajdetail), wi
 
 ## Generated MRI and CT results
 
-Each panel shows one held-out example. The last observed scan and the measured target anchor the comparison. All 12 methods forecast the same target. The grayscale images show the same axial slice, with an absolute error map below each prediction. NRMSE above each prediction is computed over the full target volume. Within each figure, all methods share the same grayscale and error scales. Click a figure to open it at full resolution.
+Each panel shows one held-out example. The last observed scan and the measured target anchor the comparison. All 12 methods forecast the same target, including the revised BrLP baseline. The grayscale images show the same axial slice, with an absolute error map below each prediction. NRMSE above each prediction is computed over the full target volume. Within each figure, all methods share the same grayscale and error scales. Click a figure to open it at full resolution.
 
 ### DLBS · Future structural brain MRI
 
@@ -240,20 +240,21 @@ Each cohort is divided into thirds by the last-image baseline’s error against 
 
 ### BrLP adaptation update
 
-<details>
-<summary>Show original and revised BrLP results</summary>
+The default BrLP baseline uses latent averaging over 10 samples, an observed-image foreground mask, and the decoder selected on each fold's validation set. It improves the mean NRMSE in all 15 cohort-fold evaluations.
 
-| Cohort | Subjects | Original NRMSE ↓ | Revised NRMSE ↓ |
-| :--- | ---: | ---: | ---: |
-| ACDC | 150 | 0.13526 ± 0.00703 | 0.09697 ± 0.00628 |
-| LUMIERE | 67 | 0.37447 ± 0.11559 | 0.16730 ± 0.02777 |
-| ISLES’24 | 149 | 0.28120 ± 0.03161 | 0.19046 ± 0.00526 |
-| MU-Glioma-Post | 110 | 0.26411 ± 0.04048 | 0.12143 ± 0.00282 |
-| DLBS | 179 | 0.23823 ± 0.01139 | 0.12850 ± 0.00481 |
+| Cohort | Subjects | Original NRMSE ↓ | Revised NRMSE ↓ | Relative reduction |
+| :--- | ---: | ---: | ---: | ---: |
+| ACDC | 150 | 0.13526 ± 0.00703 | 0.09697 ± 0.00628 | 28.3% |
+| LUMIERE | 67 | 0.37447 ± 0.11559 | 0.16730 ± 0.02777 | 55.3% |
+| ISLES’24 | 149 | 0.28120 ± 0.03161 | 0.19046 ± 0.00526 | 32.3% |
+| MU-Glioma-Post | 110 | 0.26411 ± 0.04048 | 0.12143 ± 0.00282 | 54.0% |
+| DLBS | 179 | 0.23823 ± 0.01139 | 0.12850 ± 0.00481 | 46.1% |
 
-The main comparison uses the revised scores. [Full-precision BrLP adaptation CSV](results/reference/brlp_repair_nrmse.csv)
+Each row in the figure shows the first test fold's case closest to the original BrLP median NRMSE for that cohort. Both versions use the same case, target, and display scales. The source image attribution above also applies to this figure.
 
-</details>
+[![Original and revised BrLP predictions and absolute error maps on matched MRI and CT cases](results/reference/figures/predictions/brlp_original_vs_revised.png)](results/reference/figures/predictions/brlp_original_vs_revised.png)
+
+[Full-precision BrLP adaptation CSV](results/reference/brlp_repair_nrmse.csv)
 
 ## Layout
 

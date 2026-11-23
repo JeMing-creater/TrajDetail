@@ -8,6 +8,7 @@ configs/local.*
 configs/protocol/cronos_local/
 results/*
 !results/reference/
+results/reference/historical/
 results/reference/*.png
 results/reference/*.pdf
 results/reference/*_per_case.csv
