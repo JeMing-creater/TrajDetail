@@ -27,6 +27,8 @@ Each panel shows one held-out example. The last observed scan and the measured t
 
 [![DLBS held-out example with last observation, measured target, 12 forecasts, and absolute error maps](results/reference/figures/predictions/dlbs.png)](results/reference/figures/predictions/dlbs.png)
 
+The DLBS example is the closest of the 179 held-out cases to the cohort medians on three measures. These are the last-image NRMSE and TrajDetail's paired NRMSE improvements over CRONOS and ImageFlowNet. Distance is Euclidean after scaling each measure by its interquartile range. Across all held-out cases, TrajDetail has lower NRMSE than CRONOS on 173/179 cases and ImageFlowNet on 170/179 cases.
+
 <details>
 <summary>MU-Glioma-Post · Future postoperative brain MRI</summary>
 
