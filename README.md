@@ -19,6 +19,57 @@ The trajectory assimilates available observations and rolls a shared state forwa
 
 The TrajDetail implementation is in [methods/trajdetail](methods/trajdetail), with the primary components in [unified_model.py](methods/trajdetail/unified_model.py), [matched_control.py](methods/trajdetail/matched_control.py), and [proposed.py](methods/trajdetail/proposed.py). The shared decoders are jointly trained across ACDC, LUMIERE, and ISLES’24, and a separate instance is jointly trained across MU-Glioma-Post and DLBS. The two groups use the same model design. Tests always report each cohort on its own.
 
+## Generated MRI and CT results
+
+Each panel shows one held-out example. The last observed scan and the measured target anchor the comparison. All 12 methods forecast the same target. The grayscale images show the same axial slice, with an absolute error map below each prediction. NRMSE above each prediction is computed over the full target volume. Within each figure, all methods share the same grayscale and error scales. Click a figure to open it at full resolution.
+
+### DLBS · Future structural brain MRI
+
+[![DLBS held-out example with last observation, measured target, 12 forecasts, and absolute error maps](results/reference/figures/predictions/dlbs.png)](results/reference/figures/predictions/dlbs.png)
+
+<details>
+<summary>MU-Glioma-Post · Future postoperative brain MRI</summary>
+
+[![MU-Glioma-Post held-out example with predictions and absolute error maps](results/reference/figures/predictions/mu.png)](results/reference/figures/predictions/mu.png)
+
+</details>
+
+<details>
+<summary>ACDC · Future cardiac cine MRI phase</summary>
+
+[![ACDC held-out example with predictions and absolute error maps](results/reference/figures/predictions/acdc.png)](results/reference/figures/predictions/acdc.png)
+
+</details>
+
+<details>
+<summary>LUMIERE · Future glioblastoma follow-up MRI</summary>
+
+[![LUMIERE held-out example with predictions and absolute error maps](results/reference/figures/predictions/lumiere.png)](results/reference/figures/predictions/lumiere.png)
+
+</details>
+
+<details>
+<summary>ISLES’24 · Future perfusion CT phase</summary>
+
+[![ISLES’24 held-out example with predictions and absolute error maps](results/reference/figures/predictions/isles.png)](results/reference/figures/predictions/isles.png)
+
+</details>
+
+<details>
+<summary>Source image attribution</summary>
+
+Source scans are displayed as normalized axial slices in these research figures. The figures also include model predictions and derived error maps.
+
+| Cohort | Source and terms |
+| :--- | :--- |
+| DLBS | [Dallas Lifespan Brain Study, OpenNeuro ds004856](https://openneuro.org/datasets/ds004856), CC0. |
+| MU-Glioma-Post | [Yaseen et al., University of Missouri Post-operative Glioma Dataset](https://doi.org/10.7937/7K9K-3C83), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). |
+| ACDC | [Bernard et al., ACDC](https://doi.org/10.1109/TMI.2018.2837502), [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). The ACDC panel is shared under the same license for non-commercial scientific research. |
+| LUMIERE | [Suter et al., LUMIERE](https://doi.org/10.1038/s41597-022-01881-7), [MRI data archive](https://doi.org/10.6084/m9.figshare.21249516). The authors specify [non-commercial use](https://github.com/ysuter/gbm-data-longitudinal). |
+| ISLES’24 | [Riedel et al., ISLES’24](https://doi.org/10.5281/zenodo.17652035), [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). The ISLES’24 panel is shared under the same license. |
+
+</details>
+
 ## Benchmark and results
 
 ### Five-cohort comparison
@@ -283,7 +334,7 @@ The evaluation command defaults to all methods and all three folds. `--method` a
 
 ## Attribution and distribution
 
-Reference experiments use the dataset providers' agreements and the original authors' software and weight terms. The local repository keeps downloaded data, author code installations, checkpoints, and individual generated images out of version control by default. The manuscript methods, aggregate tables and reproduction scripts are organized here for release.
+Reference experiments use the dataset providers' agreements and the original authors' software and weight terms. The release includes aggregate tables, reproduction scripts, and the five attributed comparison panels above. The local repository keeps downloaded data, author code installations, checkpoints, and full predicted volumes out of version control.
 
 ### Verification record
 
